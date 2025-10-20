@@ -8,13 +8,52 @@
             <table>
 
                         <tbody><tr>
-                                    <td style="width:75px" rowspan="1">18:40-20:10</td>
+                                    <td style="width:75px" rowspan="1">08:30-10:00</td>
                             <td style="width:auto">
-                                лаб. Методы и ср-ва создания спец-ых САПР микроэлектрон. устройств<br>2 п.г.<br>                                <br>
-ИС4-242-ОМ<br>
+                                 Физическая культура<br>                                <br>
+ИС1-231-ОТ<br>
+ИС1-232-ОТ<br>
+ИС1-233-ОТ<br>
+ИС1-234-ОТ<br>
+ИС1-235-ОТ<br>
+ИС1-236-ОТ<br>
+ИС1-237-ОТ<br>
+ИС1-238-ОТ<br>
                                 <br>
-                                <a href="https://vgltu.ru/map/rasp?auditory=33аДис">33аДис</a><br>
-                                Ачкасов А.В.<br>
+                                <a href="https://vgltu.ru/map/rasp?auditory=сз /Гл">сз /Гл</a><br>
+                                Бурцев Д.С.<br>
+                            </td>
+                        </tr>
+                        <tr>
+                                    <td style="width:75px" rowspan="1">10:10-11:40</td>
+                            <td style="width:auto">
+                                лек. Проектирование и дизайн информационных систем<br>                                <br>
+ИС1-231-ОТ<br>
+ИС1-232-ОТ<br>
+ИС1-233-ОТ<br>
+ИС1-234-ОТ<br>
+                                <br>
+                                <a href="https://vgltu.ru/map/rasp?auditory=117Л/7к">117Л/7к</a><br>
+                                Авдеев К.А.<br>
+                            </td>
+                        </tr>
+                        <tr>
+                                    <td style="width:75px" rowspan="2">11:50-13:20</td>
+                            <td style="width:auto">
+                                лаб. Численные методы<br>1 п.г.<br>                                <br>
+ИС1-231-ОТ<br>
+                                <br>
+                                <a href="https://vgltu.ru/map/rasp?auditory=220Комп/7к">220Комп/7к</a><br>
+                                Миронов Г.Д.<br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width:auto">
+                                лаб. Компьютерные сети<br>2 п.г.<br>                                <br>
+ИС1-231-ОТ<br>
+                                <br>
+                                <a href="https://vgltu.ru/map/rasp?auditory=1Комп/АГор">1Комп/АГор</a><br>
+                                Мальцев В.В.<br>
                             </td>
                         </tr>
             </tbody></table>
