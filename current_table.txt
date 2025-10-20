@@ -1,0 +1,21 @@
+        <div style="margin-bottom: 25px;">
+            <div>
+                <strong>20 октября 2025</strong>
+            </div>
+            <div>
+                понедельник
+            </div>
+            <table>
+
+                        <tbody><tr>
+                                    <td style="width:75px" rowspan="1">18:40-20:10</td>
+                            <td style="width:auto">
+                                лаб. Методы и ср-ва создания спец-ых САПР микроэлектрон. устройств<br>2 п.г.<br>                                <br>
+ИС4-242-ОМ<br>
+                                <br>
+                                <a href="https://vgltu.ru/map/rasp?auditory=33аДис">33аДис</a><br>
+                                Ачкасов А.В.<br>
+                            </td>
+                        </tr>
+            </tbody></table>
+        </div>
