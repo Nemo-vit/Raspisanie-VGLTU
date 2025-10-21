@@ -11,7 +11,7 @@ import time
 
 import sys
 from PyQt5.QtGui import QRegion, QFont, QColor, QIcon, QPainter, QPen
-from PyQt5.QtWidgets import QApplication, QWidget, QLabel, QLineEdit, QPushButton
+from PyQt5.QtWidgets import QApplication, QWidget, QLabel, QLineEdit, QPushButton, QMenu, QMainWindow
 from PyQt5.QtCore import Qt
 from PyQt5 import QtCore
 
@@ -399,6 +399,18 @@ class RoundWidget(QWidget):
         if event.button() == Qt.LeftButton:
             self.oldPos = event.pos()
 
+    def contextMenuEvent(self, event):
+        contextMenu = QMenu(self)
+        change_group_action = contextMenu.addAction("Поменять группу")
+        exit_action = contextMenu.addAction("Выход")
+        action = contextMenu.exec_(self.mapToGlobal(event.pos()))
+        if action == change_group_action:
+            self.change_group_window = GetGroupCode()
+            self.change_group_window.show()
+            self.close()
+        if action == exit_action:
+            self.close()
+
     def mouseMoveEvent(self, event):
         if self.oldPos is not None:
             delta = event.pos() - self.oldPos
@@ -408,9 +420,11 @@ class RoundWidget(QWidget):
         self.oldPos = None
 
     def mouseDoubleClickEvent(self, event):
-        self.main_window = MainWidget()
-        self.main_window.show()
-        self.setStyleSheet("background-color: rgb(135, 206, 250);")
+        if event.button() == Qt.LeftButton:
+            self.main_window = MainWidget()
+            self.main_window.show()
+            self.setStyleSheet("background-color: rgb(135, 206, 250);")
+
 
     def get_signal(self, minutes_left):
         if 0 < minutes_left < 60:
