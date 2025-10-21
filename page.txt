@@ -1239,7 +1239,7 @@
 <input id="daysGroup" style="width: 90%; height: 50px; margin-top: 5px;" type="date"></div>
 <button id="raspButtonGroup" class="button" style="width: 25%; height: 65px; margin-left: 15px;">Найти</button></div>
 </div>
-<div style="text-align: center;"><img id="preloaderGroup" style="display: none; margin: auto; opacity: 0.3; height: 256px; width: 256px; transform: rotate(405deg);" src="https://vgltu.ru/templates/default/images/logo.svg"></div>
+<div style="text-align: center;"><img id="preloaderGroup" style="display: none; margin: auto; opacity: 0.3; height: 256px; width: 256px; transform: rotate(454deg);" src="https://vgltu.ru/templates/default/images/logo.svg"></div>
 <h2 id="groupName" style="text-align: center;">ИС4-242-ОМ</h2>
 <div id="raspTableGroup" style="width: 100%; height: 100%;">
 <div class="table" style="max-height:100%">
@@ -2035,7 +2035,7 @@
 <input id="daysAud" style="width: 90%; height: 50px; margin-top: 5px;" type="date" autofocus=""></div>
 <button id="raspButtonAud" class="button" style="width: 25%; height: 65px; margin-left: 15px;">Найти</button></div>
 </div>
-<div style="text-align: center;"><img id="preloaderAud" style="display: none; margin: auto; opacity: 0.3; height: 256px; width: 256px; transform: rotate(406deg);" src="https://vgltu.ru/templates/default/images/logo.svg"></div>
+<div style="text-align: center;"><img id="preloaderAud" style="display: none; margin: auto; opacity: 0.3; height: 256px; width: 256px; transform: rotate(455deg);" src="https://vgltu.ru/templates/default/images/logo.svg"></div>
 <h2 id="auditoryName" style="text-align: center;"></h2>
 <div id="raspTableAud" style="width: 100%;"></div>
 <div>
