@@ -11,11 +11,12 @@ import time
 
 import sys
 from PyQt5.QtGui import QRegion, QFont, QColor, QIcon, QPainter, QPen
-from PyQt5.QtWidgets import QApplication, QWidget, QLabel, QLineEdit, QPushButton, QMenu, QMainWindow
+from PyQt5.QtWidgets import QApplication, QWidget, QLabel, QLineEdit, QPushButton, QMenu, QDesktopWidget
 from PyQt5.QtCore import Qt
 from PyQt5 import QtCore
 
 group_code = ""
+teacher_name = ""
 
 # --------------------------------- ТЕКУЩЕЕ РАСПИСАНИЕ ------------------------------------
 def get_current_student_table():
@@ -336,6 +337,7 @@ class TimeToStartTeacher(QtCore.QThread):
         QtCore.QThread.__init__(self, parent)
     def run(self):
         while True:
+            get_current_teacher_table()
             minutes_left = 61
             if 0 < minutes_left < 60:
                 self.my_signal.emit(minutes_left)
@@ -350,30 +352,64 @@ class GetGroupCodeOrTeacherName(QWidget):
         self.setWindowTitle("Ввод группы")
         icon = QIcon('logo.png')
         self.setWindowIcon(icon)
-        self.setGeometry(850, 430, 300, 200)
-        self.setFixedSize(300, 200)
+        self.setGeometry(850, 430, 600, 200)
+        self.setFixedSize(600, 200)
         self.setStyleSheet("background-color: rgb(255, 255, 255);")
         # Вывод текста в окно
         font = QFont("Arial", 14)
+       # Для группы
         self.lab = QLabel("Введите код группы:", parent=self)
         self.lab.setFont(font)
         self.lab.setAlignment(Qt.AlignmentFlag.AlignCenter)
         self.lab.setGeometry(0, 20, 300, 20)
         # Поле для ввода группы
-        self.lineEdit = QLineEdit(parent=self)
-        self.lineEdit.setAlignment(Qt.AlignmentFlag.AlignCenter)
-        self.lineEdit.setGeometry(100, 80, 100, 20)
-        self.lineEdit.setText("ИС4-242-ОМ")
-        self.lineEdit.setObjectName("lineEdit")
+        self.lineEdit1 = QLineEdit(parent=self)
+        self.lineEdit1.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        self.lineEdit1.setGeometry(100, 80, 100, 20)
+        self.lineEdit1.setText("ИС4-242-ОМ")
+        self.lineEdit1.setObjectName("lineEdit")
         # Кнопка
         self.btn1 = QPushButton("Выполнить", self)
         self.btn1.move(114, 130)
         self.btn1.clicked.connect(self.button1_clicked)
+       # Для препода
+        self.lab = QLabel("Введите имя преподавателя:", parent=self)
+        self.lab.setFont(font)
+        self.lab.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        self.lab.setGeometry(300, 20, 300, 20)
+        # Поле для ввода группы
+        self.lineEdit2 = QLineEdit(parent=self)
+        self.lineEdit2.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        self.lineEdit2.setGeometry(400, 80, 100, 20)
+        self.lineEdit2.setText("Федоров В.Ю.")
+        self.lineEdit2.setObjectName("lineEdit")
+        # Кнопка
+        self.btn2 = QPushButton("Выполнить", self)
+        self.btn2.move(414, 130)
+        self.btn2.clicked.connect(self.button2_clicked)
+        self.center()
+
+    def center(self):
+        # Получаем геометрию окна
+        qr = self.frameGeometry()
+        # Находим центр экрана
+        cp = QDesktopWidget().availableGeometry().center()
+        # Перемещаем центр окна в центр экрана
+        qr.moveCenter(cp)
+        # Перемещаем окно в соответствии с новой позицией
+        self.move(qr.topLeft())
 
     def button1_clicked(self):
         global group_code
-        group_code = self.lineEdit.text()
+        group_code = self.lineEdit1.text()
         self.round_window = RoundWidget("student")
+        self.round_window.show()
+        self.close()
+
+    def button2_clicked(self):
+        global teacher_name
+        teacher_name = self.lineEdit2.text()
+        self.round_window = RoundWidget("teacher")
         self.round_window.show()
         self.close()
 
@@ -568,6 +604,7 @@ class RaspisanieTeacher(QWidget):
 class RoundWidget(QWidget):
     def __init__(self, who_use):
         super().__init__()
+        self.current_user = who_use
         # параметры окна
         self.setWindowFlags(Qt.WindowStaysOnTopHint | Qt.FramelessWindowHint)
         self.setGeometry(1855, 983, 60, 60)
@@ -585,11 +622,11 @@ class RoundWidget(QWidget):
         self.label.setPalette(blue_R)
         # Положение буквы
         self.label.move(14, 5)
-        if who_use == "student":
+        if self.current_user == "student":
             self.mythread = TimeToStartStudent()
             self.mythread.my_signal.connect(self.get_signal_student)
             self.mythread.start()
-        if who_use == "teacher":
+        if self.current_user == "teacher":
             self.mythread = TimeToStartTeacher()
             self.mythread.my_signal.connect(self.get_signal_teacher)
             self.mythread.start()
@@ -605,7 +642,7 @@ class RoundWidget(QWidget):
 
     def contextMenuEvent(self, event):
         contextMenu = QMenu(self)
-        change_group_action = contextMenu.addAction("Поменять группу")
+        change_group_action = contextMenu.addAction("Поменять группу/преподавателя")
         exit_action = contextMenu.addAction("Выход")
         action = contextMenu.exec_(self.mapToGlobal(event.pos()))
         if action == change_group_action:
@@ -625,9 +662,14 @@ class RoundWidget(QWidget):
 
     def mouseDoubleClickEvent(self, event):
         if event.button() == Qt.LeftButton:
-            self.main_window = RaspisanieStudent()
-            self.main_window.show()
-            self.setStyleSheet("background-color: rgb(135, 206, 250);")
+            if self.current_user == "student":
+                self.main_window = RaspisanieStudent()
+                self.main_window.show()
+                self.setStyleSheet("background-color: rgb(135, 206, 250);")
+            if self.current_user == "teacher":
+                self.main_window = RaspisanieTeacher()
+                self.main_window.show()
+                self.setStyleSheet("background-color: rgb(135, 206, 250);")
 
     def get_signal_student(self, minutes_left):
         if 0 < minutes_left < 60:
