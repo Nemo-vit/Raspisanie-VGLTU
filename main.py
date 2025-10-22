@@ -18,7 +18,7 @@ from PyQt5 import QtCore
 group_code = ""
 
 # --------------------------------- ТЕКУЩЕЕ РАСПИСАНИЕ ------------------------------------
-def get_current_table():
+def get_current_student_table():
     # Получение текущей даты
     current_datetime = datetime.now()
     current_day = current_datetime.day
@@ -161,13 +161,13 @@ def get_current_table():
 # -----------------------------------------------------------------------------------------
 
 # ------------------------------------ РАБОТА С ОКНАМИ ------------------------------------
-class MyThread(QtCore.QThread):
+class TimeToStartStudent(QtCore.QThread):
     my_signal = QtCore.pyqtSignal(int)
     def  __init__(self, parent=None):
         QtCore.QThread.__init__(self, parent)
     def run(self):
         while True:
-            get_current_table()
+            get_current_student_table()
             fin = open("raspisanie.txt", "r", encoding='utf-8')
             line_number = 1
             er = 0
@@ -209,6 +209,19 @@ class MyThread(QtCore.QThread):
                     break
                 else:
                     time.sleep(60)
+
+class TimeToStartTeacher(QtCore.QThread):
+    my_signal = QtCore.pyqtSignal(int)
+    def  __init__(self, parent=None):
+        QtCore.QThread.__init__(self, parent)
+    def run(self):
+        while True:
+            minutes_left = 61
+            if 0 < minutes_left < 60:
+                self.my_signal.emit(minutes_left)
+                break
+            else:
+                time.sleep(60)
 
 class GetGroupCode(QWidget):
     def __init__(self):
@@ -367,7 +380,7 @@ class MainWidget(QWidget):
         painter.drawLine(500, 0, 500, 400)
 
 class RoundWidget(QWidget):
-    def __init__(self):
+    def __init__(self, who_use):
         super().__init__()
         # параметры окна
         self.setWindowFlags(Qt.WindowStaysOnTopHint | Qt.FramelessWindowHint)
@@ -386,9 +399,14 @@ class RoundWidget(QWidget):
         self.label.setPalette(blue_R)
         # Положение буквы
         self.label.move(14, 5)
-        self.mythread = MyThread()
-        self.mythread.my_signal.connect(self.get_signal)
-        self.mythread.start()
+        if who_use == "student":
+            self.mythread = TimeToStartStudent()
+            self.mythread.my_signal.connect(self.get_signal_student)
+            self.mythread.start()
+        if who_use == "teacher":
+            self.mythread = TimeToStartTeacher()
+            self.mythread.my_signal.connect(self.get_signal_teacher)
+            self.mythread.start()
 
     def set_round_window(self):
         # Создаем круговую маску
@@ -425,8 +443,11 @@ class RoundWidget(QWidget):
             self.main_window.show()
             self.setStyleSheet("background-color: rgb(135, 206, 250);")
 
+    def get_signal_student(self, minutes_left):
+        if 0 < minutes_left < 60:
+            self.setStyleSheet("background-color: rgb(255, 0, 0);")
 
-    def get_signal(self, minutes_left):
+    def get_signal_teacher(self, minutes_left):
         if 0 < minutes_left < 60:
             self.setStyleSheet("background-color: rgb(255, 0, 0);")
 

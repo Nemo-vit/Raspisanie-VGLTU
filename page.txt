@@ -7,9 +7,9 @@
 					(window.Image ? (new Image()) : document.createElement('img')).src =
 					'https://vk.com/rtrg?p=VK-RTRG-205288-c8Jje';
 				</script><script type="text/javascript" async="" src="https://vk.com/js/api/openapi.js?168"></script></head><body class=""><div xmlns="" class="menu-mobile"><div class="menu-icon"></div></div>
-<div xmlns="" class="menu-block" style="height: 8626px;">
+<div xmlns="" class="menu-block" style="height: 5243px;">
 <div class="menu-icon">Меню</div>
-<div class="menu" style="height: 8626px;">
+<div class="menu" style="height: 5243px;">
 <div class="menu-item">
 <div class="menu-item-header sved">
 <a href="/sveden/"><span class="span"><span>Сведения об образовательной организации</span></span></a><div class="submenu-icon"></div>
@@ -1235,12 +1235,12 @@
 <h4>Начните вводить имя группы и выберите из списка</h4>
 <div class="form-item-field" style="display: flex; justify-content: around; align-items: center; width: 100%;">
 <div style="display: flex; flex-direction: column; width: 100%;"><input id="searchGroup" style="width: 90%; height: 50px;" list="lsGroup" type="text" autofocus="">
-<datalist id="lsGroup" style="background-color: red;"><option value="ИС4-242-ОМ"></option></datalist>
+<datalist id="lsGroup" style="background-color: red;"><option value="ЭиБУ1-231-ОТ"></option></datalist>
 <input id="daysGroup" style="width: 90%; height: 50px; margin-top: 5px;" type="date"></div>
 <button id="raspButtonGroup" class="button" style="width: 25%; height: 65px; margin-left: 15px;">Найти</button></div>
 </div>
-<div style="text-align: center;"><img id="preloaderGroup" style="display: none; margin: auto; opacity: 0.3; height: 256px; width: 256px; transform: rotate(454deg);" src="https://vgltu.ru/templates/default/images/logo.svg"></div>
-<h2 id="groupName" style="text-align: center;">ИС4-242-ОМ</h2>
+<div style="text-align: center;"><img id="preloaderGroup" style="display: none; margin: auto; opacity: 0.3; height: 256px; width: 256px; transform: rotate(446deg);" src="https://vgltu.ru/templates/default/images/logo.svg"></div>
+<h2 id="groupName" style="text-align: center;">ЭИБУ1-231-ОТ</h2>
 <div id="raspTableGroup" style="width: 100%; height: 100%;">
 <div class="table" style="max-height:100%">
         <div style="margin-bottom: 25px;">
@@ -1253,41 +1253,33 @@
             <table>
 
                         <tbody><tr>
-                                    <td style="width:75px" rowspan="2">18:40-20:10</td>
+                                    <td style="width:75px" rowspan="1">08:30-10:00</td>
                             <td style="width:auto">
-                                Лаб. Экономико-математические модели управления проектами<br>1 п.г.<br>                                <br>
-ИС4-242-ОМ<br>
+                                пр. Безопасность жизнедеятельности<br>                                <br>
+ЭиБУ1-231-ОТ<br>
                                 <br>
-                                <a href="https://vgltu.ru/map/rasp?auditory=33аДис">33аДис</a><br>
-                                Ягодкин А.С.<br>
+                                <a href="https://vgltu.ru/map/rasp?auditory=210Пр/АПП">210Пр/АПП</a><br>
+                                Щербинин Е.Р.<br>
                             </td>
                         </tr>
                         <tr>
+                                    <td style="width:75px" rowspan="1">10:10-11:40</td>
                             <td style="width:auto">
-                                лаб. Методы и модели проектирования современных ИС<br>2 п.г.<br>                                <br>
-ИС4-242-ОМ<br>
+                                пр. Технология составления бухгалтерской отчетности<br>                                <br>
+ЭиБУ1-231-ОТ<br>
                                 <br>
-                                <a href="https://vgltu.ru/map/rasp?auditory=34аДис">34аДис</a><br>
-                                Сумин В.И.<br>
+                                <a href="https://vgltu.ru/map/rasp?auditory=202Лаб/7к">202Лаб/7к</a><br>
+                                Арсентьева М.В.<br>
                             </td>
                         </tr>
                         <tr>
-                                    <td style="width:75px" rowspan="2">20:20-21:50</td>
+                                    <td style="width:75px" rowspan="1">11:50-13:20</td>
                             <td style="width:auto">
-                                лаб. Методы и модели проектирования современных ИС<br>1 п.г.<br>                                <br>
-ИС4-242-ОМ<br>
+                                лек. Технология составления бухгалтерской отчетности<br>                                <br>
+ЭиБУ1-231-ОТ<br>
                                 <br>
-                                <a href="https://vgltu.ru/map/rasp?auditory=34аДис">34аДис</a><br>
-                                Сумин В.И.<br>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td style="width:auto">
-                                лаб. Экономико-математические модели управления проектами<br>2 п.г.<br>                                <br>
-ИС4-242-ОМ<br>
-                                <br>
-                                <a href="https://vgltu.ru/map/rasp?auditory=33аДис">33аДис</a><br>
-                                Ягодкин А.С.<br>
+                                <a href="https://vgltu.ru/map/rasp?auditory=304Лаб/7к">304Лаб/7к</a><br>
+                                Арсентьева М.В.<br>
                             </td>
                         </tr>
             </tbody></table>
@@ -1302,43 +1294,43 @@
             <table>
 
                         <tbody><tr>
-                                    <td style="width:75px" rowspan="1">17:00-18:30</td>
+                                    <td style="width:75px" rowspan="1">08:30-10:00</td>
                             <td style="width:auto">
-                                лаб. Методы и ср-ва создания спец-ых САПР микроэлектрон. устройств<br>1 п.г.<br>                                <br>
-ИС4-242-ОМ<br>
+                                пр. Бухгалтерская технология проведения и оформления инвентаризации<br>                                <br>
+ЭиБУ1-231-ОТ<br>
                                 <br>
-                                <a href="https://vgltu.ru/map/rasp?auditory=32аДис">32аДис</a><br>
-                                Фиронов В.А.<br>
+                                <a href="https://vgltu.ru/map/rasp?auditory=14Пр/Гл">14Пр/Гл</a><br>
+                                Дмитриев И.С.<br>
                             </td>
                         </tr>
                         <tr>
-                                    <td style="width:75px" rowspan="1">18:40-20:10</td>
+                                    <td style="width:75px" rowspan="1">10:10-11:40</td>
                             <td style="width:auto">
-                                лек. Методы проектир. и создания совр.САПР<br>                                <br>
-ИС4-241-ОМ<br>
-ИС4-242-ОМ<br>
+                                пр. Менеджмент<br>                                <br>
+ЭиБУ1-231-ОТ<br>
                                 <br>
-                                <a href="https://vgltu.ru/map/rasp?auditory=34аДис">34аДис</a><br>
-                                Ачкасов А.В.<br>
+                                <a href="https://vgltu.ru/map/rasp?auditory=221Пр/Гл">221Пр/Гл</a><br>
+                                Куцева Е.Э.<br>
                             </td>
                         </tr>
                         <tr>
-                                    <td style="width:75px" rowspan="2">20:20-21:50</td>
+                                    <td style="width:75px" rowspan="1">11:50-13:20</td>
                             <td style="width:auto">
-                                Лаб. Экономико-математические модели управления проектами<br>1 п.г.<br>                                <br>
-ИС4-242-ОМ<br>
+                                пр. Психология общения<br>                                <br>
+ЭиБУ1-231-ОТ<br>
                                 <br>
-                                <a href="https://vgltu.ru/map/rasp?auditory=33аДис">33аДис</a><br>
-                                Ягодкин А.С.<br>
+                                <a href="https://vgltu.ru/map/rasp?auditory=94Лаб/Гл">94Лаб/Гл</a><br>
+                                Косякова Е.Н.<br>
                             </td>
                         </tr>
                         <tr>
+                                    <td style="width:75px" rowspan="1">13:40-15:10</td>
                             <td style="width:auto">
-                                лаб. Методы и модели проектирования современных ИС<br>2 п.г.<br>                                <br>
-ИС4-242-ОМ<br>
+                                Пр. Основы философии<br>                                <br>
+ЭиБУ1-231-ОТ<br>
                                 <br>
-                                <a href="https://vgltu.ru/map/rasp?auditory=34аДис">34аДис</a><br>
-                                Сумин В.И.<br>
+                                <a href="https://vgltu.ru/map/rasp?auditory=304Лаб/7к">304Лаб/7к</a><br>
+                                Битюцкая А.А.<br>
                             </td>
                         </tr>
             </tbody></table>
@@ -1353,34 +1345,43 @@
             <table>
 
                         <tbody><tr>
-                                    <td style="width:75px" rowspan="1">17:00-18:30</td>
+                                    <td style="width:75px" rowspan="1">08:30-10:00</td>
                             <td style="width:auto">
-                                лаб. Методы и ср-ва создания спец-ых САПР микроэлектрон. устройств<br>2 п.г.<br>                                <br>
-ИС4-242-ОМ<br>
+                                лек. Организация расчетов с бюджетом и внебюджетными фондами<br>                                <br>
+ЭиБУ1-231-ОТ<br>
                                 <br>
-                                <a href="https://vgltu.ru/map/rasp?auditory=32аДис">32аДис</a><br>
-                                Фиронов В.А.<br>
+                                <a href="https://vgltu.ru/map/rasp?auditory=202Лаб/7к">202Лаб/7к</a><br>
+                                Мартынов С.В.<br>
                             </td>
                         </tr>
                         <tr>
-                                    <td style="width:75px" rowspan="1">18:40-20:10</td>
+                                    <td style="width:75px" rowspan="1">10:10-11:40</td>
                             <td style="width:auto">
-                                лек. Методы и модели проектирования современных ИС<br>                                <br>
-ИС4-241-ОМ<br>
-ИС4-242-ОМ<br>
+                                лек. Бухгалтерская технология проведения и оформления инвентаризации<br>                                <br>
+ЭиБУ1-231-ОТ<br>
                                 <br>
-                                <a href="https://vgltu.ru/map/rasp?auditory=34аДис">34аДис</a><br>
-                                Сумин В.И.<br>
+                                <a href="https://vgltu.ru/map/rasp?auditory=202Лаб/7к">202Лаб/7к</a><br>
+                                Коржова О.В.<br>
                             </td>
                         </tr>
                         <tr>
-                                    <td style="width:75px" rowspan="1">20:20-21:50</td>
+                                    <td style="width:75px" rowspan="1">11:50-13:20</td>
                             <td style="width:auto">
-                                лаб. Методы и ср-ва создания спец-ых САПР микроэлектрон. устройств<br>1 п.г.<br>                                <br>
-ИС4-242-ОМ<br>
+                                 Физическая культура<br>                                <br>
+ЭиБУ1-231-ОТ<br>
                                 <br>
-                                <a href="https://vgltu.ru/map/rasp?auditory=33аДис">33аДис</a><br>
-                                Фиронов В.А.<br>
+                                <a href="https://vgltu.ru/map/rasp?auditory=сз./Гл">сз./Гл</a><br>
+                                Ларченко А.А.<br>
+                            </td>
+                        </tr>
+                        <tr>
+                                    <td style="width:75px" rowspan="1">13:40-15:10</td>
+                            <td style="width:auto">
+                                лек. Менеджмент<br>                                <br>
+ЭиБУ1-231-ОТ<br>
+                                <br>
+                                <a href="https://vgltu.ru/map/rasp?auditory=14Пр/ПРЭМ">14Пр/ПРЭМ</a><br>
+                                Куцева Е.Э.<br>
                             </td>
                         </tr>
             </tbody></table>
@@ -1395,41 +1396,33 @@
             <table>
 
                         <tbody><tr>
-                                    <td style="width:75px" rowspan="2">18:40-20:10</td>
+                                    <td style="width:75px" rowspan="1">10:10-11:40</td>
                             <td style="width:auto">
-                                лаб. Методы анализа систем и поиска решений<br>1 п.г.<br>                                <br>
-ИС4-242-ОМ<br>
+                                пр. Организация расчетов с бюджетом и внебюджетными фондами<br>                                <br>
+ЭиБУ1-231-ОТ<br>
                                 <br>
-                                <a href="https://vgltu.ru/map/rasp?auditory=33аДис">33аДис</a><br>
-                                Поцебнева И.В.<br>
+                                <a href="https://vgltu.ru/map/rasp?auditory=202Лаб/7к">202Лаб/7к</a><br>
+                                Мартынов С.В.<br>
                             </td>
                         </tr>
                         <tr>
+                                    <td style="width:75px" rowspan="1">11:50-13:20</td>
                             <td style="width:auto">
-                                лаб. Методы организации разработки IT-проектов<br>2 п.г.<br>                                <br>
-ИС4-242-ОМ<br>
+                                пр. Аудит<br>                                <br>
+ЭиБУ1-231-ОТ<br>
                                 <br>
-                                <a href="https://vgltu.ru/map/rasp?auditory=34аДис">34аДис</a><br>
-                                Акименко А.В.<br>
+                                <a href="https://vgltu.ru/map/rasp?auditory=308Л/Гл">308Л/Гл</a><br>
+                                Мартынов С.В.<br>
                             </td>
                         </tr>
                         <tr>
-                                    <td style="width:75px" rowspan="2">20:20-21:50</td>
+                                    <td style="width:75px" rowspan="1">13:40-15:10</td>
                             <td style="width:auto">
-                                лаб. Методы организации разработки IT-проектов<br>1 п.г.<br>                                <br>
-ИС4-242-ОМ<br>
+                                пр. Иностранный язык в профессиональной деятельности<br>2 п.г.<br>                                <br>
+ЭиБУ1-231-ОТ<br>
                                 <br>
-                                <a href="https://vgltu.ru/map/rasp?auditory=34аДис">34аДис</a><br>
-                                Акименко А.В.<br>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td style="width:auto">
-                                лаб. Методы анализа систем и поиска решений<br>2 п.г.<br>                                <br>
-ИС4-242-ОМ<br>
-                                <br>
-                                <a href="https://vgltu.ru/map/rasp?auditory=33аДис">33аДис</a><br>
-                                Поцебнева И.В.<br>
+                                <a href="https://vgltu.ru/map/rasp?auditory=025аЛаб /Гл">025аЛаб /Гл</a><br>
+                                Малыгина Е.М.<br>
                             </td>
                         </tr>
             </tbody></table>
@@ -1444,52 +1437,23 @@
             <table>
 
                         <tbody><tr>
-                                    <td style="width:75px" rowspan="1">17:00-18:30</td>
+                                    <td style="width:75px" rowspan="1">08:30-10:00</td>
                             <td style="width:auto">
-                                лек. Методы анализа систем и поиска решений<br>                                <br>
-ИС4-241-ОМ<br>
-ИС4-242-ОМ<br>
+                                лек. Аудит<br>                                <br>
+ЭиБУ1-231-ОТ<br>
                                 <br>
-                                <a href="https://vgltu.ru/map/rasp?auditory=34аДис">34аДис</a><br>
-                                Поцебнева И.В.<br>
+                                <a href="https://vgltu.ru/map/rasp?auditory=118Л/7к">118Л/7к</a><br>
+                                Мартынов С.В.<br>
                             </td>
                         </tr>
                         <tr>
-                                    <td style="width:75px" rowspan="2">18:40-20:10</td>
+                                    <td style="width:75px" rowspan="1">10:10-11:40</td>
                             <td style="width:auto">
-                                лаб. Методы проектир. и создания совр.САПР<br>1 п.г.<br>                                <br>
-ИС4-242-ОМ<br>
+                                пр. Иностранный язык в профессиональной деятельности<br>1 п.г.<br>                                <br>
+ЭиБУ1-231-ОТ<br>
                                 <br>
-                                <a href="https://vgltu.ru/map/rasp?auditory=32аДис">32аДис</a><br>
-                                Ачкасов А.В.<br>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td style="width:auto">
-                                лаб. Методы оценки научных исследований<br>2 п.г.<br>                                <br>
-ИС4-242-ОМ<br>
-                                <br>
-                                <a href="https://vgltu.ru/map/rasp?auditory=34аДис">34аДис</a><br>
-                                Сумин В.И.<br>
-                            </td>
-                        </tr>
-                        <tr>
-                                    <td style="width:75px" rowspan="2">20:20-21:50</td>
-                            <td style="width:auto">
-                                лаб. Методы оценки научных исследований<br>1 п.г.<br>                                <br>
-ИС4-242-ОМ<br>
-                                <br>
-                                <a href="https://vgltu.ru/map/rasp?auditory=34аДис">34аДис</a><br>
-                                Сумин В.И.<br>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td style="width:auto">
-                                лаб. Методы проектир. и создания совр.САПР<br>2 п.г.<br>                                <br>
-ИС4-242-ОМ<br>
-                                <br>
-                                <a href="https://vgltu.ru/map/rasp?auditory=32аДис">32аДис</a><br>
-                                Ачкасов А.В.<br>
+                                <a href="https://vgltu.ru/map/rasp?auditory=6Пр/БЖД">6Пр/БЖД</a><br>
+                                Малыгина Е.М.<br>
                             </td>
                         </tr>
             </tbody></table>
@@ -1509,299 +1473,96 @@
                     </tr>
                 </tbody></table>
             </div>
-        <div style="margin-bottom: 25px;">
-            <div>
-                <strong>27 октября 2025</strong>
+            <div style="margin-bottom: 25px">
+                <div>
+                    <strong>27 октября 2025</strong>
+                </div>
+                <div>
+                    понедельник
+                </div>
+                <table>
+                    <tbody><tr>
+                        <td>
+                            Нет пар
+                        </td>
+                    </tr>
+                </tbody></table>
             </div>
-            <div>
-                понедельник
+            <div style="margin-bottom: 25px">
+                <div>
+                    <strong>28 октября 2025</strong>
+                </div>
+                <div>
+                    вторник
+                </div>
+                <table>
+                    <tbody><tr>
+                        <td>
+                            Нет пар
+                        </td>
+                    </tr>
+                </tbody></table>
             </div>
-            <table>
-
-                        <tbody><tr>
-                                    <td style="width:75px" rowspan="2">18:40-20:10</td>
-                            <td style="width:auto">
-                                лаб. Методы анализа систем и поиска решений<br>1 п.г.<br>                                <br>
-ИС4-242-ОМ<br>
-                                <br>
-                                <a href="https://vgltu.ru/map/rasp?auditory=34аДис">34аДис</a><br>
-                                Поцебнева И.В.<br>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td style="width:auto">
-                                лаб. Методы организации разработки IT-проектов<br>2 п.г.<br>                                <br>
-ИС4-242-ОМ<br>
-                                <br>
-                                <a href="https://vgltu.ru/map/rasp?auditory=35аДис">35аДис</a><br>
-                                Акименко А.В.<br>
-                            </td>
-                        </tr>
-                        <tr>
-                                    <td style="width:75px" rowspan="2">20:20-21:50</td>
-                            <td style="width:auto">
-                                лаб. Методы организации разработки IT-проектов<br>1 п.г.<br>                                <br>
-ИС4-242-ОМ<br>
-                                <br>
-                                <a href="https://vgltu.ru/map/rasp?auditory=34аДис">34аДис</a><br>
-                                Акименко А.В.<br>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td style="width:auto">
-                                лаб. Методы анализа систем и поиска решений<br>2 п.г.<br>                                <br>
-ИС4-242-ОМ<br>
-                                <br>
-                                <a href="https://vgltu.ru/map/rasp?auditory=33аДис">33аДис</a><br>
-                                Поцебнева И.В.<br>
-                            </td>
-                        </tr>
-            </tbody></table>
-        </div>
-        <div style="margin-bottom: 25px;">
-            <div>
-                <strong>28 октября 2025</strong>
+            <div style="margin-bottom: 25px">
+                <div>
+                    <strong>29 октября 2025</strong>
+                </div>
+                <div>
+                    среда
+                </div>
+                <table>
+                    <tbody><tr>
+                        <td>
+                            Нет пар
+                        </td>
+                    </tr>
+                </tbody></table>
             </div>
-            <div>
-                вторник
+            <div style="margin-bottom: 25px">
+                <div>
+                    <strong>30 октября 2025</strong>
+                </div>
+                <div>
+                    четверг
+                </div>
+                <table>
+                    <tbody><tr>
+                        <td>
+                            Нет пар
+                        </td>
+                    </tr>
+                </tbody></table>
             </div>
-            <table>
-
-                        <tbody><tr>
-                                    <td style="width:75px" rowspan="2">18:40-20:10</td>
-                            <td style="width:auto">
-                                Лаб. Экономико-математические модели управления проектами<br>1 п.г.<br>                                <br>
-ИС4-242-ОМ<br>
-                                <br>
-                                <a href="https://vgltu.ru/map/rasp?auditory=33аДис">33аДис</a><br>
-                                Ягодкин А.С.<br>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td style="width:auto">
-                                лаб. Методы и модели проектирования современных ИС<br>2 п.г.<br>                                <br>
-ИС4-242-ОМ<br>
-                                <br>
-                                <a href="https://vgltu.ru/map/rasp?auditory=34аДис">34аДис</a><br>
-                                Сумин В.И.<br>
-                            </td>
-                        </tr>
-                        <tr>
-                                    <td style="width:75px" rowspan="2">20:20-21:50</td>
-                            <td style="width:auto">
-                                лаб. Методы и модели проектирования современных ИС<br>1 п.г.<br>                                <br>
-ИС4-242-ОМ<br>
-                                <br>
-                                <a href="https://vgltu.ru/map/rasp?auditory=34аДис">34аДис</a><br>
-                                Сумин В.И.<br>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td style="width:auto">
-                                лаб. Экономико-математические модели управления проектами<br>2 п.г.<br>                                <br>
-ИС4-242-ОМ<br>
-                                <br>
-                                <a href="https://vgltu.ru/map/rasp?auditory=33аДис">33аДис</a><br>
-                                Ягодкин А.С.<br>
-                            </td>
-                        </tr>
-            </tbody></table>
-        </div>
-        <div style="margin-bottom: 25px;">
-            <div>
-                <strong>29 октября 2025</strong>
+            <div style="margin-bottom: 25px">
+                <div>
+                    <strong>31 октября 2025</strong>
+                </div>
+                <div>
+                    пятница
+                </div>
+                <table>
+                    <tbody><tr>
+                        <td>
+                            Нет пар
+                        </td>
+                    </tr>
+                </tbody></table>
             </div>
-            <div>
-                среда
+            <div style="margin-bottom: 25px">
+                <div>
+                    <strong>01 ноября 2025</strong>
+                </div>
+                <div>
+                    суббота
+                </div>
+                <table>
+                    <tbody><tr>
+                        <td>
+                            Нет пар
+                        </td>
+                    </tr>
+                </tbody></table>
             </div>
-            <table>
-
-                        <tbody><tr>
-                                    <td style="width:75px" rowspan="1">17:00-18:30</td>
-                            <td style="width:auto">
-                                лаб. Методы и ср-ва создания спец-ых САПР микроэлектрон. устройств<br>1 п.г.<br>                                <br>
-ИС4-242-ОМ<br>
-                                <br>
-                                <a href="https://vgltu.ru/map/rasp?auditory=32аДис">32аДис</a><br>
-                                Фиронов В.А.<br>
-                            </td>
-                        </tr>
-                        <tr>
-                                    <td style="width:75px" rowspan="2">18:40-20:10</td>
-                            <td style="width:auto">
-                                лаб. Методы проектир. и создания совр.САПР<br>1 п.г.<br>                                <br>
-ИС4-242-ОМ<br>
-                                <br>
-                                <a href="https://vgltu.ru/map/rasp?auditory=32аДис">32аДис</a><br>
-                                Ачкасов А.В.<br>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td style="width:auto">
-                                лаб. Методы и ср-ва создания спец-ых САПР микроэлектрон. устройств<br>2 п.г.<br>                                <br>
-ИС4-242-ОМ<br>
-                                <br>
-                                <a href="https://vgltu.ru/map/rasp?auditory=33аДис">33аДис</a><br>
-                                Фиронов В.А.<br>
-                            </td>
-                        </tr>
-                        <tr>
-                                    <td style="width:75px" rowspan="1">20:20-21:50</td>
-                            <td style="width:auto">
-                                Лек. Экономико-математические модели управления проектами<br>                                <br>
-ИС4-241-ОМ<br>
-ИС4-242-ОМ<br>
-                                <br>
-                                <a href="https://vgltu.ru/map/rasp?auditory=34аДис">34аДис</a><br>
-                                Ягодкин А.С.<br>
-                            </td>
-                        </tr>
-            </tbody></table>
-        </div>
-        <div style="margin-bottom: 25px;">
-            <div>
-                <strong>30 октября 2025</strong>
-            </div>
-            <div>
-                четверг
-            </div>
-            <table>
-
-                        <tbody><tr>
-                                    <td style="width:75px" rowspan="1">17:00-18:30</td>
-                            <td style="width:auto">
-                                лек. Методы и ср-ва создания спец-ых САПР микроэлектрон. устройств<br>                                <br>
-ИС4-241-ОМ<br>
-ИС4-242-ОМ<br>
-                                <br>
-                                <a href="https://vgltu.ru/map/rasp?auditory=34аДис">34аДис</a><br>
-                                Фиронов В.А.<br>
-                            </td>
-                        </tr>
-                        <tr>
-                                    <td style="width:75px" rowspan="2">18:40-20:10</td>
-                            <td style="width:auto">
-                                лаб. Методы проектир. и создания совр.САПР<br>1 п.г.<br>                                <br>
-ИС4-242-ОМ<br>
-                                <br>
-                                <a href="https://vgltu.ru/map/rasp?auditory=32аДис">32аДис</a><br>
-                                Ачкасов А.В.<br>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td style="width:auto">
-                                лаб. Методы оценки научных исследований<br>2 п.г.<br>                                <br>
-ИС4-242-ОМ<br>
-                                <br>
-                                <a href="https://vgltu.ru/map/rasp?auditory=34аДис">34аДис</a><br>
-                                Сумин В.И.<br>
-                            </td>
-                        </tr>
-                        <tr>
-                                    <td style="width:75px" rowspan="1">20:20-21:50</td>
-                            <td style="width:auto">
-                                лаб. Методы и ср-ва создания спец-ых САПР микроэлектрон. устройств<br>2 п.г.<br>                                <br>
-ИС4-242-ОМ<br>
-                                <br>
-                                <a href="https://vgltu.ru/map/rasp?auditory=32аДис">32аДис</a><br>
-                                Фиронов В.А.<br>
-                            </td>
-                        </tr>
-            </tbody></table>
-        </div>
-        <div style="margin-bottom: 25px;">
-            <div>
-                <strong>31 октября 2025</strong>
-            </div>
-            <div>
-                пятница
-            </div>
-            <table>
-
-                        <tbody><tr>
-                                    <td style="width:75px" rowspan="1">18:40-20:10</td>
-                            <td style="width:auto">
-                                лек. Методы организации разработки IT-проектов<br>                                <br>
-ИС4-241-ОМ<br>
-ИС4-242-ОМ<br>
-                                <br>
-                                <a href="https://vgltu.ru/map/rasp?auditory=34аДис">34аДис</a><br>
-                                Акименко А.В.<br>
-                            </td>
-                        </tr>
-                        <tr>
-                                    <td style="width:75px" rowspan="2">20:20-21:50</td>
-                            <td style="width:auto">
-                                лаб. Методы и модели проектирования современных ИС<br>1 п.г.<br>                                <br>
-ИС4-242-ОМ<br>
-                                <br>
-                                <a href="https://vgltu.ru/map/rasp?auditory=34аДис">34аДис</a><br>
-                                Сумин В.И.<br>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td style="width:auto">
-                                лаб. Экономико-математические модели управления проектами<br>2 п.г.<br>                                <br>
-ИС4-242-ОМ<br>
-                                <br>
-                                <a href="https://vgltu.ru/map/rasp?auditory=33аДис">33аДис</a><br>
-                                Ягодкин А.С.<br>
-                            </td>
-                        </tr>
-            </tbody></table>
-        </div>
-        <div style="margin-bottom: 25px;">
-            <div>
-                <strong>01 ноября 2025</strong>
-            </div>
-            <div>
-                суббота
-            </div>
-            <table>
-
-                        <tbody><tr>
-                                    <td style="width:75px" rowspan="1">15:20-16:50</td>
-                            <td style="width:auto">
-                                лек. Методы оценки научных исследований<br>                                <br>
-ИС4-241-ОМ<br>
-ИС4-242-ОМ<br>
-                                <br>
-                                <a href="https://vgltu.ru/map/rasp?auditory=34аДис">34аДис</a><br>
-                                Сумин В.И.<br>
-                            </td>
-                        </tr>
-                        <tr>
-                                    <td style="width:75px" rowspan="1">17:00-18:30</td>
-                            <td style="width:auto">
-                                лек. Методы и модели проектирования современных ИС<br>                                <br>
-ИС4-241-ОМ<br>
-ИС4-242-ОМ<br>
-                                <br>
-                                <a href="https://vgltu.ru/map/rasp?auditory=34аДис">34аДис</a><br>
-                                Сумин В.И.<br>
-                            </td>
-                        </tr>
-                        <tr>
-                                    <td style="width:75px" rowspan="2">18:40-20:10</td>
-                            <td style="width:auto">
-                                лаб. Методы оценки научных исследований<br>1 п.г.<br>                                <br>
-ИС4-242-ОМ<br>
-                                <br>
-                                <a href="https://vgltu.ru/map/rasp?auditory=34аДис">34аДис</a><br>
-                                Сумин В.И.<br>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td style="width:auto">
-                                лаб. Методы проектир. и создания совр.САПР<br>2 п.г.<br>                                <br>
-ИС4-242-ОМ<br>
-                                <br>
-                                <a href="https://vgltu.ru/map/rasp?auditory=32аДис">32аДис</a><br>
-                                Ачкасов А.В.<br>
-                            </td>
-                        </tr>
-            </tbody></table>
-        </div>
             <div style="margin-bottom: 25px">
                 <div>
                     <strong>02 ноября 2025</strong>
@@ -2035,7 +1796,7 @@
 <input id="daysAud" style="width: 90%; height: 50px; margin-top: 5px;" type="date" autofocus=""></div>
 <button id="raspButtonAud" class="button" style="width: 25%; height: 65px; margin-left: 15px;">Найти</button></div>
 </div>
-<div style="text-align: center;"><img id="preloaderAud" style="display: none; margin: auto; opacity: 0.3; height: 256px; width: 256px; transform: rotate(455deg);" src="https://vgltu.ru/templates/default/images/logo.svg"></div>
+<div style="text-align: center;"><img id="preloaderAud" style="display: none; margin: auto; opacity: 0.3; height: 256px; width: 256px; transform: rotate(445deg);" src="https://vgltu.ru/templates/default/images/logo.svg"></div>
 <h2 id="auditoryName" style="text-align: center;"></h2>
 <div id="raspTableAud" style="width: 100%;"></div>
 <div>
