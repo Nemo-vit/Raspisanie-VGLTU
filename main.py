@@ -255,6 +255,29 @@ def get_current_teacher_table():
             break
     fout.close()
     fin.close()
+
+    # Красивый вывод в консоль
+    fin = open("current_table.txt", "r", encoding='utf-8')
+    fout = open("raspisanie.txt", "w", encoding='utf-8')
+    line_count = 1
+    good_sign = 0
+    fout.write(current_date + "\n")
+    for line in fin:
+        # день
+        if line_count == 6:
+            fout.write(line.replace(" ", ""))
+        # время
+        if "<td style=\"width:75px" in line:
+            fout.write("\n" + line[51:62])
+            good_sign = line_count
+        # подгруппа и предмет
+        if line_count == (good_sign + 2) and line_count > 6:
+            fout.write("\n" + line[32:line.find("<")] + "\n" + line[line.find("<br>")+4:line.find("<br>")+10])
+        # группа
+        if line_count == (good_sign + 3) and line_count > 6:
+            fout.write("\n" + line[0:line.find("<")-1] + "\n")
+            good_sign= 0
+        line_count += 1
 # -----------------------------------------------------------------------------------------
 
 # ------------------------------------ РАБОТА С ОКНАМИ ------------------------------------
@@ -345,9 +368,9 @@ class GetGroupCodeOrTeacherName(QWidget):
         # Кнопка
         self.btn1 = QPushButton("Выполнить", self)
         self.btn1.move(114, 130)
-        self.btn1.clicked.connect(self.button_clicked)
+        self.btn1.clicked.connect(self.button1_clicked)
 
-    def button_clicked(self):
+    def button1_clicked(self):
         global group_code
         group_code = self.lineEdit.text()
         self.round_window = RoundWidget("student")
@@ -476,6 +499,49 @@ class RaspisanieStudent(QWidget):
         # Рисование вертикальной линии
         painter.drawLine(500, 0, 500, 400)
 
+class RaspisanieTeacher(QWidget):
+    def __init__(self):
+        super().__init__()
+        # параметры окна
+        window_name = "Расписание преподавателя Федоров В.Ю. "
+        self.setWindowTitle(window_name)
+        icon = QIcon('logo.png')
+        self.setWindowIcon(icon)
+        self.setGeometry(630, 340, 1000, 400)
+        self.setFixedSize(1000, 400)
+        self.setStyleSheet("background-color: rgb(255, 255, 255);")
+        # Получение переменных с данными расписания и их вывод в окно
+        font = QFont("Arial", 14)
+        fin = open("raspisanie.txt", "r", encoding='utf-8')
+        line_count = 1
+        good_sign = 0
+        current_place = 0
+        for line in fin:
+            if line_count == 1:
+            # Дата
+                self.l_date = QLabel(line, parent=self)
+                self.l_date.setFont(font)
+                self.l_date.setAlignment(Qt.AlignmentFlag.AlignCenter)
+                self.l_date.setGeometry(0, 0, 1000, 20)
+            # день
+            if line_count == 2:
+                self.l_day_w = QLabel(line, parent=self)
+                self.l_day_w.setFont(font)
+                self.l_day_w.setAlignment(Qt.AlignmentFlag.AlignCenter)
+                self.l_day_w.setGeometry(0, 20, 1000, 20)
+            # время
+            if ":" in line:
+                current_place += 60
+                self.l_time = QLabel(line, parent=self)
+                self.l_time.setFont(font)
+                self.l_time.setAlignment(Qt.AlignmentFlag.AlignCenter)
+                self.l_time.setGeometry(0, current_place, 1000, 20)
+                current_place_predm = current_place + 20
+                current_place_prepod = current_place_predm + 20
+                good_sign = line_count
+
+            line_count += 1
+
 class RoundWidget(QWidget):
     def __init__(self, who_use):
         super().__init__()
@@ -549,11 +615,17 @@ class RoundWidget(QWidget):
             self.setStyleSheet("background-color: rgb(255, 0, 0);")
 
 if __name__ == "__main__":
+    app = QApplication(sys.argv)
+    # Создание окна
+    widget = GetGroupCodeOrTeacherName()
+    # Показать окно
+    widget.show()
+    sys.exit(app.exec_())
+
     #app = QApplication(sys.argv)
     # Создание окна
-    #widget = GetGroupCodeOrTeacherName()
+    #widget = RaspisanieTeacher()
     # Показать окно
     #widget.show()
-    get_current_teacher_table()
     #sys.exit(app.exec_())
 # -----------------------------------------------------------------------------------------
