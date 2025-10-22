@@ -516,6 +516,10 @@ class RaspisanieTeacher(QWidget):
         line_count = 1
         good_sign = 0
         current_place = 0
+        current_place_predm = -20
+        current_place_group = 20
+        group_to_print = ""
+        group_print = 0
         for line in fin:
             if line_count == 1:
             # Дата
@@ -531,15 +535,34 @@ class RaspisanieTeacher(QWidget):
                 self.l_day_w.setGeometry(0, 20, 1000, 20)
             # время
             if ":" in line:
-                current_place += 60
+                current_place = current_place_group + 40
                 self.l_time = QLabel(line, parent=self)
                 self.l_time.setFont(font)
                 self.l_time.setAlignment(Qt.AlignmentFlag.AlignCenter)
                 self.l_time.setGeometry(0, current_place, 1000, 20)
                 current_place_predm = current_place + 20
-                current_place_prepod = current_place_predm + 20
                 good_sign = line_count
-
+            # предмет
+            if line_count == (good_sign + 1) and good_sign > 0:
+                self.l_predm = QLabel(line, parent=self)
+                self.l_predm.setFont(font)
+                self.l_predm.setAlignment(Qt.AlignmentFlag.AlignCenter)
+                self.l_predm.setGeometry(0, current_place_predm, 1000, 20)
+                current_place_predm = current_place + 20
+            # группа
+            if (line_count == (good_sign + 2) and good_sign > 0) or group_print:
+                if "п.г." in line or group_print:
+                    if (group_print):
+                        self.predm = QLabel(line.replace("\n", " ") + group_to_print, parent=self)
+                        self.predm.setFont(font)
+                        self.predm.setAlignment(Qt.AlignmentFlag.AlignCenter)
+                        current_place_group = current_place_predm + 20
+                        self.predm.setGeometry(0, current_place_group, 1000, 20)
+                        group_print = 0
+                        group_to_print = ""
+                    else:
+                        group_to_print  += line
+                        group_print = 1
             line_count += 1
 
 class RoundWidget(QWidget):
