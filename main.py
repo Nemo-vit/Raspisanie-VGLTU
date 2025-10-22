@@ -436,7 +436,7 @@ class GetGroupCodeOrTeacherName(QWidget):
         self.round_window.show()
         self.close()
 
-# готово, всё верно, доработать оформление
+# готово, всё верно
 class RaspisanieStudent(QWidget):
     def __init__(self):
         super().__init__()
@@ -446,19 +446,19 @@ class RaspisanieStudent(QWidget):
         self.setWindowTitle(window_name)
         icon = QIcon('logo.png')
         self.setWindowIcon(icon)
-        self.setGeometry(630, 340, 1000, 400)
-        self.setFixedSize(1000, 400)
+        self.setGeometry(630, 340, 1200, 400)
+        self.setFixedSize(1200, 400)
         self.setStyleSheet("background-color: rgb(255, 255, 255);")
         # Получение переменных с данными расписания и их вывод в окно
         font = QFont("Arial", 14)
         self.l_1pg = QLabel("1 п.г.", parent=self)
         self.l_1pg.setFont(font)
         self.l_1pg.setAlignment(Qt.AlignmentFlag.AlignCenter)
-        self.l_1pg.setGeometry(0, 40, 499, 20)
+        self.l_1pg.setGeometry(0, 40, 599, 20)
         self.l_2pg = QLabel("2 п.г.", parent=self)
         self.l_2pg.setFont(font)
         self.l_2pg.setAlignment(Qt.AlignmentFlag.AlignCenter)
-        self.l_2pg.setGeometry(501, 40, 499, 20)
+        self.l_2pg.setGeometry(601, 40, 599, 20)
         fin = open("raspisanie.txt", "r", encoding='utf-8')
         line_count = 1
         go_cycle = 0
@@ -467,6 +467,7 @@ class RaspisanieStudent(QWidget):
         lection = 0
         predm = 0
         just_second_predm = 0
+        current_place_teacher = 40
         current_place = 0
         for line in fin:
             if line_count == good_sign+1 and "2 п.г." in line:
@@ -476,76 +477,76 @@ class RaspisanieStudent(QWidget):
                 self.l_date = QLabel(line, parent=self)
                 self.l_date.setFont(font)
                 self.l_date.setAlignment(Qt.AlignmentFlag.AlignCenter)
-                self.l_date.setGeometry(0, 0, 1000, 20)
+                self.l_date.setGeometry(0, 0, 1200, 20)
             # день
             if line_count == 2:
                 self.l_day_w = QLabel(line, parent=self)
                 self.l_day_w.setFont(font)
                 self.l_day_w.setAlignment(Qt.AlignmentFlag.AlignCenter)
-                self.l_day_w.setGeometry(0, 20, 1000, 20)
+                self.l_day_w.setGeometry(0, 20, 1200, 20)
             # подгруппа и предмет
             if line_count == (good_sign + 2) and go_cycle == 1 and not ("лек." in line or "Лек." in line or "Физ" in  line) and just_second_predm == 0:
                 self.l_predm = QLabel(line, parent=self)
                 self.l_predm.setFont(font)
                 self.l_predm.setAlignment(Qt.AlignmentFlag.AlignCenter)
-                self.l_predm.setGeometry(0, current_place_predm, 499, 20)
+                self.l_predm.setGeometry(0, current_place_predm, 599, 20)
             elif line_count == (good_sign + 2) and go_cycle == 1 and not ("лек." in line or "Лек." in line or "Физ" in  line) and just_second_predm == 1:
                 self.l_predm = QLabel(line, parent=self)
                 self.l_predm.setFont(font)
                 self.l_predm.setAlignment(Qt.AlignmentFlag.AlignCenter)
-                self.l_predm.setGeometry(501, current_place_predm, 499, 20)
+                self.l_predm.setGeometry(601, current_place_predm, 599, 20)
                 second_predm = 1
                 go_cycle = 0
             elif line_count == (good_sign + 5) and ("лаб" in line or "пр" in line or "Пр" in line) and not ("лек." in line or "Лек." in line or "Физ" in  line):
                 self.l_predm = QLabel(line, parent=self)
                 self.l_predm.setFont(font)
                 self.l_predm.setAlignment(Qt.AlignmentFlag.AlignCenter)
-                self.l_predm.setGeometry(501, current_place_predm, 499, 20)
+                self.l_predm.setGeometry(601, current_place_predm, 599, 20)
                 second_predm = 1
                 go_cycle = 0
             elif "лек." in line or "Лек." in line or "Физ" in  line or "Пр." in  line or "пр." in  line:
                 self.l_predm = QLabel(line, parent=self)
                 self.l_predm.setFont(font)
                 self.l_predm.setAlignment(Qt.AlignmentFlag.AlignCenter)
-                self.l_predm.setGeometry(0, current_place_predm, 1000, 20)
+                self.l_predm.setGeometry(0, current_place_predm, 1200, 20)
                 go_cycle = 0
                 lection = 1
             # фио препода
             if line_count == (good_sign + 3) and go_cycle == 1 and second_predm == 0 and just_second_predm == 0:
-                self.l_prepod = QLabel(line, parent=self)
-                self.l_prepod.setFont(font)
-                self.l_prepod.setAlignment(Qt.AlignmentFlag.AlignCenter)
-                self.l_prepod.setGeometry(0, current_place_prepod, 499, 20)
+                self.l_teacher = QLabel(line, parent=self)
+                self.l_teacher.setFont(font)
+                self.l_teacher.setAlignment(Qt.AlignmentFlag.AlignCenter)
+                self.l_teacher.setGeometry(0, current_place_teacher, 599, 20)
                 go_cycle = 0
             elif line_count == (good_sign + 3) and second_predm == 1 and just_second_predm == 1:
                 just_second_predm == 0
                 second_predm = 0
-                self.l_prepod = QLabel(line, parent=self)
-                self.l_prepod.setFont(font)
-                self.l_prepod.setAlignment(Qt.AlignmentFlag.AlignCenter)
-                self.l_prepod.setGeometry(501, current_place_prepod, 499, 20)
+                self.l_teacher = QLabel(line, parent=self)
+                self.l_teacher.setFont(font)
+                self.l_teacher.setAlignment(Qt.AlignmentFlag.AlignCenter)
+                self.l_teacher.setGeometry(601, current_place_teacher, 599, 20)
             elif line_count == (good_sign + 6):
                 second_predm = 0
-                self.l_prepod = QLabel(line, parent=self)
-                self.l_prepod.setFont(font)
-                self.l_prepod.setAlignment(Qt.AlignmentFlag.AlignCenter)
-                self.l_prepod.setGeometry(501, current_place_prepod, 499, 20)
+                self.l_teacher = QLabel(line, parent=self)
+                self.l_teacher.setFont(font)
+                self.l_teacher.setAlignment(Qt.AlignmentFlag.AlignCenter)
+                self.l_teacher.setGeometry(601, current_place_teacher, 599, 20)
             elif line_count == (good_sign + 2) and lection == 1:
-                self.l_prepod = QLabel(line, parent=self)
-                self.l_prepod.setFont(font)
-                self.l_prepod.setAlignment(Qt.AlignmentFlag.AlignCenter)
-                self.l_prepod.setGeometry(0, current_place_prepod, 1000, 20)
+                self.l_teacher = QLabel(line, parent=self)
+                self.l_teacher.setFont(font)
+                self.l_teacher.setAlignment(Qt.AlignmentFlag.AlignCenter)
+                self.l_teacher.setGeometry(0, current_place_teacher, 1200, 20)
                 lection = 0
             # время
             if ":" in line:
-                current_place += 60
+                current_place = current_place_teacher + 40
                 self.l_time = QLabel(line, parent=self)
                 self.l_time.setFont(font)
                 self.l_time.setAlignment(Qt.AlignmentFlag.AlignCenter)
-                self.l_time.setGeometry(0, current_place, 1000, 20)
+                self.l_time.setGeometry(0, current_place, 1200, 20)
                 predm += 1
                 current_place_predm = current_place + 20
-                current_place_prepod = current_place_predm + 20
+                current_place_teacher = current_place_predm + 20
                 good_sign = line_count
                 go_cycle = 1
             line_count += 1
@@ -557,7 +558,11 @@ class RaspisanieStudent(QWidget):
         pen = QPen(Qt.black, 1)
         painter.setPen(pen)
         # Рисование вертикальной линии
-        painter.drawLine(500, 0, 500, 400)
+        painter.drawLine(600, 0, 600, 400)
+        painter.drawLine(0, 70, 1200, 70)
+        painter.drawLine(0, 150, 1200, 150)
+        painter.drawLine(0, 230, 1200, 230)
+        painter.drawLine(0, 310, 1200, 310)
 
 class RaspisanieTeacher(QWidget):
     def __init__(self):
