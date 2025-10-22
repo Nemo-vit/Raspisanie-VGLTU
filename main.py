@@ -19,6 +19,7 @@ group_code = ""
 teacher_name = ""
 
 # --------------------------------- ТЕКУЩЕЕ РАСПИСАНИЕ ------------------------------------
+# готово, всё верно
 def get_current_student_table():
     # Получение текущей даты
     current_datetime = datetime.now()
@@ -282,10 +283,12 @@ def get_current_teacher_table():
 # -----------------------------------------------------------------------------------------
 
 # ------------------------------------ РАБОТА С ОКНАМИ ------------------------------------
+# готово, всё верно
 class TimeToStartStudent(QtCore.QThread):
     my_signal = QtCore.pyqtSignal(int)
     def  __init__(self, parent=None):
         QtCore.QThread.__init__(self, parent)
+
     def run(self):
         while True:
             get_current_student_table()
@@ -331,20 +334,40 @@ class TimeToStartStudent(QtCore.QThread):
                 else:
                     time.sleep(60)
 
+# готово, всё верно
 class TimeToStartTeacher(QtCore.QThread):
     my_signal = QtCore.pyqtSignal(int)
     def  __init__(self, parent=None):
         QtCore.QThread.__init__(self, parent)
+
     def run(self):
         while True:
             get_current_teacher_table()
-            minutes_left = 61
-            if 0 < minutes_left < 60:
-                self.my_signal.emit(minutes_left)
-                break
-            else:
-                time.sleep(60)
+            fin = open("raspisanie.txt", "r", encoding='utf-8')
+            line_number = 1
+            for line in fin:
+                if line_number == 4:
+                    start_time = line[:5]
+                    break
+                else:
+                    line_number += 1
+            fin.close()
+            print(start_time)
+            for i in range(0,59):
+                current_time = datetime.now()
+                current_min = current_time.minute
+                current_hour = current_time.hour
+                if int(start_time[0]) == 0:
+                    minutes_left = (int(start_time[1]) * 60 + int(start_time[3:5])) - (current_hour * 60 + current_min)
+                else:
+                    minutes_left = (int(start_time[:2])*60 + int(start_time[3:5])) - (current_hour*60 + current_min)
+                if 0 < minutes_left < 60:
+                    self.my_signal.emit(minutes_left)
+                    break
+                else:
+                    time.sleep(60)
 
+# готово, всё верно
 class GetGroupCodeOrTeacherName(QWidget):
     def __init__(self):
         super().__init__()
@@ -413,6 +436,7 @@ class GetGroupCodeOrTeacherName(QWidget):
         self.round_window.show()
         self.close()
 
+# готово, всё верно, доработать оформление
 class RaspisanieStudent(QWidget):
     def __init__(self):
         super().__init__()
@@ -601,6 +625,7 @@ class RaspisanieTeacher(QWidget):
                         group_print = 1
             line_count += 1
 
+# готово, всё верно
 class RoundWidget(QWidget):
     def __init__(self, who_use):
         super().__init__()
