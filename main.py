@@ -158,6 +158,103 @@ def get_current_student_table():
             good_sign = line_count
             go_cycle = 1
         line_count += 1
+
+def get_current_teacher_table():
+    # Получение текущей даты
+    current_datetime = datetime.now()
+    current_day = current_datetime.day
+    current_month = current_datetime.month
+    current_year = current_datetime.year
+    formatted_date = dates.format_date(
+        date(current_year, current_month, current_day),
+        format='long',
+        locale='ru_RU'
+    )
+    current_date = formatted_date[:formatted_date.find(" ",formatted_date.find(" ")+1)]
+
+    # Получение кода страницы
+    # Драйвер + открытие страницы
+    chrome_options = Options()
+    chrome_options.add_argument("--headless") # Включает режим без открытия страницы
+    service = ChromeService(executable_path=ChromeDriverManager().install())
+    driver = webdriver.Chrome(service=service, options=chrome_options)
+    url = "https://vgltu.ru/obuchayushchimsya/raspisanie-zanyatij/"
+    driver.get(url)
+    # Выполнение действия
+    input_field = driver.find_element(By.ID, "tab-2")
+    input_field.click()
+    # Ждём прогрузки страницы
+    time.sleep(2)
+    # Выполнение действия
+    input_field = driver.find_element(By.ID, "searchTeacher")
+    teacher_name = "Федоров В.Ю."
+    input_field.send_keys(teacher_name)
+    # Ждём прогрузки страницы
+    time.sleep(2)
+    # Выполнение действия
+    input_field = driver.find_element(By.ID, "raspButtonTeacher")
+    input_field.click()
+    # Ждём прогрузки страницы
+    time.sleep(2)
+    # Получение HTML кода
+    html_code = driver.page_source
+    # Вывод кода в файл
+    with open("page.txt", 'w', encoding='utf-8') as file:
+        file.write(html_code)
+    file.close()
+    # Закрытие браузера
+    driver.quit()
+
+    # Получение моих строк
+    # Поиск стартовой строки
+    fin = open("page.txt", encoding='utf-8')
+    i = 0
+    for line in fin:
+        if current_date in line:
+            i += 1
+            break
+        else:
+            i += 1
+    fin.close()
+    start_string = i - 3
+    # Поиск конечной строки
+    # Вычисляем следующую дату (завтра)
+    today = datetime.today()
+    tomorrow = today + timedelta(days=1)
+    next_month = tomorrow.month
+    next_day = tomorrow.day
+    next_year = tomorrow.year
+    formatted_date = dates.format_date(
+        date(next_year, next_month, next_day),
+        format='long',
+        locale='ru_RU'
+    )
+    next_date = formatted_date[:formatted_date.find(" ", formatted_date.find(" ") + 1)]
+    # Получаем номер последней строки
+    fin = open("page.txt", encoding='utf-8')
+    j = 0
+    for line in fin:
+        if next_date in line:
+            j += 1
+            break
+        else:
+            j += 1
+    fin.close()
+    end_string = j - 4
+    # Выписывание моих строк
+    fin = open("page.txt", encoding='utf-8')
+    c = 0
+    fout = open("current_table.txt", 'w', encoding='utf-8')
+    for line in fin:
+        if start_string <= c <= end_string:
+            c += 1
+            fout.write(line)
+        elif c < i:
+            c += 1
+        elif c > j:
+            break
+    fout.close()
+    fin.close()
 # -----------------------------------------------------------------------------------------
 
 # ------------------------------------ РАБОТА С ОКНАМИ ------------------------------------
@@ -223,7 +320,7 @@ class TimeToStartTeacher(QtCore.QThread):
             else:
                 time.sleep(60)
 
-class GetGroupCode(QWidget):
+class GetGroupCodeOrTeacherName(QWidget):
     def __init__(self):
         super().__init__()
         # параметры окна
@@ -257,7 +354,7 @@ class GetGroupCode(QWidget):
         self.round_window.show()
         self.close()
 
-class MainWidget(QWidget):
+class RaspisanieStudent(QWidget):
     def __init__(self):
         super().__init__()
         # параметры окна
@@ -423,7 +520,7 @@ class RoundWidget(QWidget):
         exit_action = contextMenu.addAction("Выход")
         action = contextMenu.exec_(self.mapToGlobal(event.pos()))
         if action == change_group_action:
-            self.change_group_window = GetGroupCode()
+            self.change_group_window = GetGroupCodeOrTeacherName()
             self.change_group_window.show()
             self.close()
         if action == exit_action:
@@ -439,7 +536,7 @@ class RoundWidget(QWidget):
 
     def mouseDoubleClickEvent(self, event):
         if event.button() == Qt.LeftButton:
-            self.main_window = MainWidget()
+            self.main_window = RaspisanieStudent()
             self.main_window.show()
             self.setStyleSheet("background-color: rgb(135, 206, 250);")
 
@@ -452,11 +549,11 @@ class RoundWidget(QWidget):
             self.setStyleSheet("background-color: rgb(255, 0, 0);")
 
 if __name__ == "__main__":
-    app = QApplication(sys.argv)
+    #app = QApplication(sys.argv)
     # Создание окна
-    widget = GetGroupCode()
+    #widget = GetGroupCodeOrTeacherName()
     # Показать окно
-    widget.show()
-
-    sys.exit(app.exec_())
+    #widget.show()
+    get_current_teacher_table()
+    #sys.exit(app.exec_())
 # -----------------------------------------------------------------------------------------
