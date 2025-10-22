@@ -161,6 +161,7 @@ def get_current_student_table():
             go_cycle = 1
         line_count += 1
 
+# готово, всё верно
 def get_current_teacher_table():
     # Получение текущей даты
     current_datetime = datetime.now()
@@ -263,6 +264,7 @@ def get_current_teacher_table():
     fout = open("raspisanie.txt", "w", encoding='utf-8')
     line_count = 1
     good_sign = 0
+    go_cycle = 0
     fout.write(current_date + "\n")
     for line in fin:
         # день
@@ -272,13 +274,17 @@ def get_current_teacher_table():
         if "<td style=\"width:75px" in line:
             fout.write("\n" + line[51:62])
             good_sign = line_count
-        # подгруппа и предмет
-        if line_count == (good_sign + 2) and line_count > 6:
-            fout.write("\n" + line[32:line.find("<")] + "\n" + line[line.find("<br>")+4:line.find("<br>")+10])
-        # группа
-        if line_count == (good_sign + 3) and line_count > 6:
-            fout.write("\n" + line[0:line.find("<")-1] + "\n")
-            good_sign= 0
+        # Предмет и подгруппа
+        if line_count == (good_sign + 2) and ("п.г." in line):
+            fout.write("\n" + line[32:line.find("<")] + "\n" + line[line.find("<br>") + 4:line.find("<br>") + 10])
+        elif line_count == (good_sign + 2) and not ("п.г." in line) and line_count > 3:
+            fout.write("\n" + line[32:line.find("<")])
+        # Группа
+        if ((line_count == (good_sign + 3) or go_cycle) and not (line.replace(" ", "").replace("\n", "") == "<br>")) and line_count > 3:
+            fout.write("\n" + line[0:line.find(" <")])
+            go_cycle = 1
+        elif line.replace(" ", "").replace("\n", "") == "<br>" and line_count > 3 and go_cycle:
+            go_cycle = 0
         line_count += 1
 # -----------------------------------------------------------------------------------------
 
@@ -575,6 +581,7 @@ class RaspisanieStudent(QWidget):
         # Перемещаем окно в соответствии с новой позицией
         self.move(qr.topLeft())
 
+# готово, всё верно
 class RaspisanieTeacher(QWidget):
     def __init__(self):
         super().__init__()
@@ -597,6 +604,7 @@ class RaspisanieTeacher(QWidget):
         current_place_group = 20
         group_to_print = ""
         group_print = 0
+        more_than_one_group = 0
         for line in fin:
             if line_count == 1:
             # Дата
@@ -624,10 +632,10 @@ class RaspisanieTeacher(QWidget):
                 self.l_predm = QLabel(line, parent=self)
                 self.l_predm.setFont(font)
                 self.l_predm.setAlignment(Qt.AlignmentFlag.AlignCenter)
-                self.l_predm.setGeometry(0, current_place_predm, 1000, 20)
                 current_place_predm = current_place + 20
+                self.l_predm.setGeometry(0, current_place_predm, 1000, 20)
             # группа
-            if (line_count == (good_sign + 2) and good_sign > 0) or group_print:
+            if (line_count == (good_sign + 2) and good_sign > 0) or group_print or more_than_one_group:
                 if "п.г." in line or group_print:
                     if (group_print):
                         self.predm = QLabel(line.replace("\n", " ") + group_to_print, parent=self)
@@ -640,6 +648,16 @@ class RaspisanieTeacher(QWidget):
                     else:
                         group_to_print  += line
                         group_print = 1
+                elif " " not in line and ":" not in line:
+                    self.predm = QLabel(line, parent=self)
+                    self.predm.setFont(font)
+                    self.predm.setAlignment(Qt.AlignmentFlag.AlignCenter)
+                    current_place_group = current_place_predm + 20
+                    self.predm.setGeometry(0, current_place_group, 1000, 20)
+                    current_place_predm += 20
+                    more_than_one_group = 1
+                else:
+                    more_than_one_group = 0
             line_count += 1
         self.center()
 
