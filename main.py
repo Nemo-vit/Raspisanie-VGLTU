@@ -253,7 +253,7 @@ class GetGroupCode(QWidget):
     def button_clicked(self):
         global group_code
         group_code = self.lineEdit.text()
-        self.round_window = RoundWidget()
+        self.round_window = RoundWidget("student")
         self.round_window.show()
         self.close()
 
