@@ -550,6 +550,7 @@ class RaspisanieStudent(QWidget):
                 good_sign = line_count
                 go_cycle = 1
             line_count += 1
+        self.center()
 
     def paintEvent(self, e):
         # Вертикальная линия по центру
@@ -563,6 +564,16 @@ class RaspisanieStudent(QWidget):
         painter.drawLine(0, 150, 1200, 150)
         painter.drawLine(0, 230, 1200, 230)
         painter.drawLine(0, 310, 1200, 310)
+
+    def center(self):
+        # Получаем геометрию окна
+        qr = self.frameGeometry()
+        # Находим центр экрана
+        cp = QDesktopWidget().availableGeometry().center()
+        # Перемещаем центр окна в центр экрана
+        qr.moveCenter(cp)
+        # Перемещаем окно в соответствии с новой позицией
+        self.move(qr.topLeft())
 
 class RaspisanieTeacher(QWidget):
     def __init__(self):
@@ -630,6 +641,17 @@ class RaspisanieTeacher(QWidget):
                         group_to_print  += line
                         group_print = 1
             line_count += 1
+        self.center()
+
+    def center(self):
+        # Получаем геометрию окна
+        qr = self.frameGeometry()
+        # Находим центр экрана
+        cp = QDesktopWidget().availableGeometry().center()
+        # Перемещаем центр окна в центр экрана
+        qr.moveCenter(cp)
+        # Перемещаем окно в соответствии с новой позицией
+        self.move(qr.topLeft())
 
 # готово, всё верно
 class RoundWidget(QWidget):
@@ -679,6 +701,7 @@ class RoundWidget(QWidget):
         if action == change_group_action:
             self.change_group_window = GetGroupCodeOrTeacherName()
             self.change_group_window.show()
+            self.main_window.close()
             self.close()
         if action == exit_action:
             self.close()
