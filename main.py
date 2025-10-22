@@ -758,4 +758,11 @@ if __name__ == "__main__":
     # Показать окно
     widget.show()
     sys.exit(app.exec_())
+
+    #app = QApplication(sys.argv)
+    # Создание окна
+    #widget = RaspisanieTeacher()
+    # Показать окно
+    #widget.show()
+    #sys.exit(app.exec_())
 # -----------------------------------------------------------------------------------------
