@@ -352,7 +352,6 @@ class TimeToStartTeacher(QtCore.QThread):
                 else:
                     line_number += 1
             fin.close()
-            print(start_time)
             for i in range(0,59):
                 current_time = datetime.now()
                 current_min = current_time.minute
