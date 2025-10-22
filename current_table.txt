@@ -1,38 +1,50 @@
         <div style="margin-bottom: 25px;">
             <div>
-                <strong>22 октября 2025</strong>
+                <strong>23 октября 2025</strong>
             </div>
             <div>
-                среда
+                четверг
             </div>
             <table>
 
                         <tbody><tr>
+                            <td style="width:75px">08:30-10:00</td>
+                            <td style="width:auto">
+                                лек. Математика<br>                                <br>
+ЮР1-253-ОТ <br>
+ЮР1-254-ОТ <br>
+ЮР1-255-ОТ <br>
+                                <br>
+                                <a href="https://kis.vgltu.ru/map/rasp?auditory=202Л/9к">202Л/9к</a><br>
+                            </td>
+                        </tr>
+                        <tr>
                             <td style="width:75px">10:10-11:40</td>
                             <td style="width:auto">
                                 пр. Математика<br>                                <br>
-ЮР1-254-ОТ <br>
+ПМ1-251-ОТ <br>
+ТГ1-252-ОТ <br>
                                 <br>
-                                <a href="https://kis.vgltu.ru/map/rasp?auditory=204Л/9к">204Л/9к</a><br>
+                                <a href="https://kis.vgltu.ru/map/rasp?auditory=207мат./9к">207мат./9к</a><br>
                             </td>
                         </tr>
                         <tr>
                             <td style="width:75px">13:40-15:10</td>
                             <td style="width:auto">
-                                лек. Математика<br>                                <br>
-ИМ2-251-ОБ <br>
-ИМ2-252-ОБ <br>
+                                Лек. Математика<br>                                <br>
+ИС2-241-ОБ <br>
+ИС2-242-ОБ <br>
                                 <br>
-                                <a href="https://kis.vgltu.ru/map/rasp?auditory=244Л/Гл">244Л/Гл</a><br>
+                                <a href="https://kis.vgltu.ru/map/rasp?auditory=234Л/Гл">234Л/Гл</a><br>
                             </td>
                         </tr>
                         <tr>
                             <td style="width:75px">15:20-16:50</td>
                             <td style="width:auto">
-                                Пр. Математика<br>                                <br>
-ИС2-242-ОБ <br>
+                                лек. Математика<br>                                <br>
+АП2-251-ОБ <br>
                                 <br>
-                                <a href="https://kis.vgltu.ru/map/rasp?auditory=221Пр/Гл">221Пр/Гл</a><br>
+                                <a href="https://kis.vgltu.ru/map/rasp?auditory=024Лаб/Гл">024Лаб/Гл</a><br>
                             </td>
                         </tr>
             </tbody></table>

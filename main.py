@@ -525,7 +525,7 @@ class RaspisanieStudent(QWidget):
                 self.l_teacher.setGeometry(0, current_place_teacher, 599, 20)
                 go_cycle = 0
             elif line_count == (good_sign + 3) and second_predm == 1 and just_second_predm == 1:
-                just_second_predm == 0
+                just_second_predm = 0
                 second_predm = 0
                 self.l_teacher = QLabel(line, parent=self)
                 self.l_teacher.setFont(font)
@@ -590,8 +590,8 @@ class RaspisanieTeacher(QWidget):
         self.setWindowTitle(window_name)
         icon = QIcon('logo.png')
         self.setWindowIcon(icon)
-        self.setGeometry(630, 340, 1000, 400)
-        self.setFixedSize(1000, 400)
+        self.setGeometry(630, 340, 1000, 500)
+        self.setFixedSize(1000, 500)
         self.setStyleSheet("background-color: rgb(255, 255, 255);")
         # Получение переменных с данными расписания и их вывод в окно
         font = QFont("Arial", 14)
@@ -745,5 +745,12 @@ if __name__ == "__main__":
     # Показать окно
     widget.show()
     sys.exit(app.exec_())
+
+    #app = QApplication(sys.argv)
+    # Создание окна
+    #widget = RaspisanieStudent()
+    # Показать окно
+    #widget.show()
+    #sys.exit(app.exec_())
 
 # -----------------------------------------------------------------------------------------
