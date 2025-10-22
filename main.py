@@ -189,7 +189,7 @@ def get_current_teacher_table():
     time.sleep(2)
     # Выполнение действия
     input_field = driver.find_element(By.ID, "searchTeacher")
-    teacher_name = "Федоров В.Ю."
+    global teacher_name
     input_field.send_keys(teacher_name)
     # Ждём прогрузки страницы
     time.sleep(2)
@@ -343,6 +343,7 @@ class TimeToStartTeacher(QtCore.QThread):
     def run(self):
         while True:
             get_current_teacher_table()
+            start_time = ""
             fin = open("raspisanie.txt", "r", encoding='utf-8')
             line_number = 1
             for line in fin:
@@ -562,7 +563,8 @@ class RaspisanieTeacher(QWidget):
     def __init__(self):
         super().__init__()
         # параметры окна
-        window_name = "Расписание преподавателя Федоров В.Ю. "
+        global teacher_name
+        window_name = "Расписание преподавателя " + teacher_name
         self.setWindowTitle(window_name)
         icon = QIcon('logo.png')
         self.setWindowIcon(icon)
