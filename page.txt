@@ -1,5 +1,5 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:umi="http://www.umi-cms.ru/TR/umi" xml:lang="ru"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Расписание занятий | ВГЛТУ</title><meta name="viewport" content="initial-scale=1.0, user-scalable=no, target-densitydpi=low-dpi"><meta name="description" content="Воронежский государственный лесотехнический университет имени Г.Ф. Морозова — Федеральное государственное бюджетное образовательное учреждение высшего образования"><meta name="keywords" content=""><meta name="format-detection" content="telephone=no"><meta http-equiv="x-rim-auto-match" content="none"><meta property="og:image" content="http://vgltu.ru/templates/default/images/logo.svg"><meta property="og:title" content="Расписание занятий | ВГЛТУ"><meta name="yandex-verification" content="5e3ae5184131b89a"><link rel="canonical" href="https://vgltu.ru/obuchayushchimsya/raspisanie-zanyatij/"><link rel="apple-touch-icon" sizes="57x57" href="/templates/default/images/favicon/apple-icon-57x57.png"><link rel="apple-touch-icon" sizes="60x60" href="/templates/default/images/favicon/apple-icon-60x60.png"><link rel="apple-touch-icon" sizes="72x72" href="/templates/default/images/favicon/apple-icon-72x72.png"><link rel="apple-touch-icon" sizes="76x76" href="/templates/default/images/favicon/apple-icon-76x76.png"><link rel="apple-touch-icon" sizes="114x114" href="/templates/default/images/favicon/apple-icon-114x114.png"><link rel="apple-touch-icon" sizes="120x120" href="/templates/default/images/favicon/apple-icon-120x120.png"><link rel="apple-touch-icon" sizes="144x144" href="/templates/default/images/favicon/apple-icon-144x144.png"><link rel="apple-touch-icon" sizes="152x152" href="/templates/default/images/favicon/apple-icon-152x152.png"><link rel="apple-touch-icon" sizes="180x180" href="/templates/default/images/favicon/apple-icon-180x180.png"><link rel="icon" type="image/png" sizes="192x192" href="/templates/default/images/favicon/android-icon-192x192.png"><link rel="icon" type="image/png" sizes="32x32" href="/templates/default/images/favicon/favicon-32x32.png"><link rel="icon" type="image/png" sizes="96x96" href="/templates/default/images/favicon/favicon-96x96.png"><link rel="icon" type="image/png" sizes="16x16" href="/templates/default/images/favicon/favicon-16x16.png"><link href="/templates/default/css/style.css" rel="stylesheet" type="text/css"><link href="/templates/default/css/style-for-all-users.css?v=20250117" rel="stylesheet" type="text/css"><link rel="stylesheet" type="text/css" href="/templates/default/js/fancybox2/jquery.fancybox.css"><link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.7/slick.css"><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-CJXD206DVD&amp;cx=c&amp;gtm=4e5al0"></script><script type="text/javascript" async="" id="tmr-code" src="https://top-fwz1.mail.ru/js/code.js"></script><script async="" src="https://mc.yandex.ru/metrika/tag.js"></script><script type="text/javascript">
+<title>Расписание занятий | ВГЛТУ</title><meta name="viewport" content="initial-scale=1.0, user-scalable=no, target-densitydpi=low-dpi"><meta name="description" content="Воронежский государственный лесотехнический университет имени Г.Ф. Морозова — Федеральное государственное бюджетное образовательное учреждение высшего образования"><meta name="keywords" content=""><meta name="format-detection" content="telephone=no"><meta http-equiv="x-rim-auto-match" content="none"><meta property="og:image" content="http://vgltu.ru/templates/default/images/logo.svg"><meta property="og:title" content="Расписание занятий | ВГЛТУ"><meta name="yandex-verification" content="5e3ae5184131b89a"><link rel="canonical" href="https://vgltu.ru/obuchayushchimsya/raspisanie-zanyatij/"><link rel="apple-touch-icon" sizes="57x57" href="/templates/default/images/favicon/apple-icon-57x57.png"><link rel="apple-touch-icon" sizes="60x60" href="/templates/default/images/favicon/apple-icon-60x60.png"><link rel="apple-touch-icon" sizes="72x72" href="/templates/default/images/favicon/apple-icon-72x72.png"><link rel="apple-touch-icon" sizes="76x76" href="/templates/default/images/favicon/apple-icon-76x76.png"><link rel="apple-touch-icon" sizes="114x114" href="/templates/default/images/favicon/apple-icon-114x114.png"><link rel="apple-touch-icon" sizes="120x120" href="/templates/default/images/favicon/apple-icon-120x120.png"><link rel="apple-touch-icon" sizes="144x144" href="/templates/default/images/favicon/apple-icon-144x144.png"><link rel="apple-touch-icon" sizes="152x152" href="/templates/default/images/favicon/apple-icon-152x152.png"><link rel="apple-touch-icon" sizes="180x180" href="/templates/default/images/favicon/apple-icon-180x180.png"><link rel="icon" type="image/png" sizes="192x192" href="/templates/default/images/favicon/android-icon-192x192.png"><link rel="icon" type="image/png" sizes="32x32" href="/templates/default/images/favicon/favicon-32x32.png"><link rel="icon" type="image/png" sizes="96x96" href="/templates/default/images/favicon/favicon-96x96.png"><link rel="icon" type="image/png" sizes="16x16" href="/templates/default/images/favicon/favicon-16x16.png"><link href="/templates/default/css/style.css" rel="stylesheet" type="text/css"><link href="/templates/default/css/style-for-all-users.css?v=20250117" rel="stylesheet" type="text/css"><link rel="stylesheet" type="text/css" href="/templates/default/js/fancybox2/jquery.fancybox.css"><link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.7/slick.css"><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-CJXD206DVD&amp;cx=c&amp;gtm=4e5al1h2"></script><script type="text/javascript" async="" id="tmr-code" src="https://top-fwz1.mail.ru/js/code.js"></script><script async="" src="https://mc.yandex.ru/metrika/tag.js"></script><script type="text/javascript">
 					(window.Image ? (new Image()) : document.createElement('img')).src =
 					location.protocol +
 					'//vk.com/rtrg?r=yfLE7jyqhe3Hy0UahEp3v1MTAZY1WSVahrDYAfhSGi4wXS8U1NlHPhfDdgZ4CTaHhE3inYgsJIXLfGcHnJ1GSYyGcQN8CUKpUK8Z04UcvDOJJCHWubNh4pe0p3TGz5eVyTnoKNYsT4vUYSib6NdPnJ0dxqsaD4LwBW44kuyloP8-';
@@ -7,9 +7,9 @@
 					(window.Image ? (new Image()) : document.createElement('img')).src =
 					'https://vk.com/rtrg?p=VK-RTRG-205288-c8Jje';
 				</script><script type="text/javascript" async="" src="https://vk.com/js/api/openapi.js?168"></script></head><body class=""><div xmlns="" class="menu-mobile"><div class="menu-icon"></div></div>
-<div xmlns="" class="menu-block" style="height: 4563px;">
+<div xmlns="" class="menu-block" style="height: 5825px;">
 <div class="menu-icon">Меню</div>
-<div class="menu" style="height: 4563px;">
+<div class="menu" style="height: 5825px;">
 <div class="menu-item">
 <div class="menu-item-header sved">
 <a href="/sveden/"><span class="span"><span>Сведения об образовательной организации</span></span></a><div class="submenu-icon"></div>
@@ -1240,7 +1240,7 @@
 <input id="daysGroup" style="width: 90%; height: 50px; margin-top: 5px;" type="date"></div>
 <button id="raspButtonGroup" class="button" style="width: 25%; height: 65px; margin-left: 15px;">Найти</button></div>
 </div>
-<div style="text-align: center;"><img id="preloaderGroup" style="display: none; margin: auto; opacity: 0.3; height: 256px; width: 256px; transform: rotate(646deg);" src="https://vgltu.ru/templates/default/images/logo.svg"></div>
+<div style="text-align: center;"><img id="preloaderGroup" style="display: none; margin: auto; opacity: 0.3; height: 256px; width: 256px; transform: rotate(708deg);" src="https://vgltu.ru/templates/default/images/logo.svg"></div>
 <h2 id="groupName" style="text-align: center;"></h2>
 <div id="raspTableGroup" style="width: 100%; height: 100%;"></div>
 <div>
@@ -1344,13 +1344,13 @@
 <h4>Начните вводить фамилию преподавателя и выберите Ф.И.О. из списка</h4>
 <div class="form-item-field" style="display: flex; justify-content: around; align-items: center; width: 100%;">
 <div style="display: flex; flex-direction: column; width: 100%;"><input id="searchTeacher" style="width: 90%; height: 50px;" list="lsTeacher" type="text" autofocus="">
-<datalist id="lsTeacher" style="background-color: red;"><option value="Федоров В.Ю."></option></datalist>
+<datalist id="lsTeacher" style="background-color: red;"><option value="Смирнова Е.В."></option></datalist>
 <input id="daysTeacher" style="width: 90%; height: 50px; margin-top: 5px;" type="date"></div>
 <button id="raspButtonTeacher" class="button" style="width: 25%; height: 65px; margin-left: 15px;">Найти</button></div>
 </div>
 </div>
 <div style="text-align: center;"><img id="preloaderTeacher" style="display: none; margin: auto; opacity: 0.3; height: 256px; width: 256px;" src="https://vgltu.ru/templates/default/images/logo.svg"></div>
-<h2 id="teacherName" style="text-align: center;">Федоров В.Ю.</h2>
+<h2 id="teacherName" style="text-align: center;">Смирнова Е.В.</h2>
 <div id="raspTableTeacher" style="width: 100%;">
 <div class="table" style="max-height:100%">
         <div style="margin-bottom: 25px;">
@@ -1365,19 +1365,29 @@
                         <tbody><tr>
                             <td style="width:75px">10:10-11:40</td>
                             <td style="width:auto">
-                                лаб. Устройство и функционирование информационной системы<br>2 п.г.<br>                                <br>
-ИС1-221-ОТ <br>
+                                пр. Математика<br>                                <br>
+ЮР1-254-ОТ <br>
                                 <br>
-                                <a href="https://kis.vgltu.ru/map/rasp?auditory=201Комп/7к">201Комп/7к</a><br>
+                                <a href="https://kis.vgltu.ru/map/rasp?auditory=204Л/9к">204Л/9к</a><br>
                             </td>
                         </tr>
                         <tr>
-                            <td style="width:75px">11:50-13:20</td>
+                            <td style="width:75px">13:40-15:10</td>
                             <td style="width:auto">
-                                пр. Устройство и функционирование информационной системы<br>2 п.г.<br>                                <br>
-ИС1-221-ОТ <br>
+                                лек. Математика<br>                                <br>
+ИМ2-251-ОБ <br>
+ИМ2-252-ОБ <br>
                                 <br>
-                                <a href="https://kis.vgltu.ru/map/rasp?auditory=4Комп/АГор">4Комп/АГор</a><br>
+                                <a href="https://kis.vgltu.ru/map/rasp?auditory=244Л/Гл">244Л/Гл</a><br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width:75px">15:20-16:50</td>
+                            <td style="width:auto">
+                                Пр. Математика<br>                                <br>
+ИС2-242-ОБ <br>
+                                <br>
+                                <a href="https://kis.vgltu.ru/map/rasp?auditory=221Пр/Гл">221Пр/Гл</a><br>
                             </td>
                         </tr>
             </tbody></table>
@@ -1394,19 +1404,41 @@
                         <tbody><tr>
                             <td style="width:75px">08:30-10:00</td>
                             <td style="width:auto">
-                                лаб. Устройство и функционирование информационной системы<br>2 п.г.<br>                                <br>
-ИС1-223-ОТ <br>
+                                лек. Математика<br>                                <br>
+ЮР1-253-ОТ <br>
+ЮР1-254-ОТ <br>
+ЮР1-255-ОТ <br>
                                 <br>
-                                <a href="https://kis.vgltu.ru/map/rasp?auditory=108Комп/7к">108Комп/7к</a><br>
+                                <a href="https://kis.vgltu.ru/map/rasp?auditory=202Л/9к">202Л/9к</a><br>
                             </td>
                         </tr>
                         <tr>
-                            <td style="width:75px">11:50-13:20</td>
+                            <td style="width:75px">10:10-11:40</td>
                             <td style="width:auto">
-                                лаб. Устройство и функционирование информационной системы<br>2 п.г.<br>                                <br>
-ИС1-225-ОТ <br>
+                                пр. Математика<br>                                <br>
+ПМ1-251-ОТ <br>
+ТГ1-252-ОТ <br>
                                 <br>
-                                <a href="https://kis.vgltu.ru/map/rasp?auditory=107Комп/7к">107Комп/7к</a><br>
+                                <a href="https://kis.vgltu.ru/map/rasp?auditory=207мат./9к">207мат./9к</a><br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width:75px">13:40-15:10</td>
+                            <td style="width:auto">
+                                Лек. Математика<br>                                <br>
+ИС2-241-ОБ <br>
+ИС2-242-ОБ <br>
+                                <br>
+                                <a href="https://kis.vgltu.ru/map/rasp?auditory=234Л/Гл">234Л/Гл</a><br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width:75px">15:20-16:50</td>
+                            <td style="width:auto">
+                                лек. Математика<br>                                <br>
+АП2-251-ОБ <br>
+                                <br>
+                                <a href="https://kis.vgltu.ru/map/rasp?auditory=024Лаб/Гл">024Лаб/Гл</a><br>
                             </td>
                         </tr>
             </tbody></table>
@@ -1421,21 +1453,30 @@
             <table>
 
                         <tbody><tr>
-                            <td style="width:75px">08:30-10:00</td>
+                            <td style="width:75px">11:50-13:20</td>
                             <td style="width:auto">
-                                лаб. Устройство и функционирование информационной системы<br>2 п.г.<br>                                <br>
-ИС1-226-ОТ <br>
+                                пр. Методы оптимизации<br>                                <br>
+ТМ2-231-ОБ <br>
                                 <br>
-                                <a href="https://kis.vgltu.ru/map/rasp?auditory=107Комп/7к">107Комп/7к</a><br>
+                                <a href="https://kis.vgltu.ru/map/rasp?auditory=311Лаб/Гл">311Лаб/Гл</a><br>
                             </td>
                         </tr>
                         <tr>
-                            <td style="width:75px">11:50-13:20</td>
+                            <td style="width:75px">13:40-15:10</td>
                             <td style="width:auto">
-                                лаб. Устройство и функционирование информационной системы<br>2 п.г.<br>                                <br>
-ИС1-223-ОТ <br>
+                                лек. Методы оптимизации<br>                                <br>
+ТМ2-231-ОБ <br>
                                 <br>
-                                <a href="https://kis.vgltu.ru/map/rasp?auditory=92Лаб/Гл">92Лаб/Гл</a><br>
+                                <a href="https://kis.vgltu.ru/map/rasp?auditory=338Пр/Гл">338Пр/Гл</a><br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width:75px">15:20-16:50</td>
+                            <td style="width:auto">
+                                пр. Математика<br>                                <br>
+ИС2-251-ОБ <br>
+                                <br>
+                                <a href="https://kis.vgltu.ru/map/rasp?auditory=228Пр/Гл">228Пр/Гл</a><br>
                             </td>
                         </tr>
             </tbody></table>
@@ -1452,33 +1493,19 @@
                         <tbody><tr>
                             <td style="width:75px">08:30-10:00</td>
                             <td style="width:auto">
-                                лек. Устройство и функционирование информационной системы<br>                                <br>
-ИС1-225-ОТ <br>
-ИС1-226-ОТ <br>
-ИС1-227-ОТ <br>
+                                Пр. Специальные главы математики<br>                                <br>
+ИС4-251-ОМ <br>
                                 <br>
-                                <a href="https://kis.vgltu.ru/map/rasp?auditory=119Л/7к">119Л/7к</a><br>
+                                <a href="https://kis.vgltu.ru/map/rasp?auditory=11аДис">11аДис</a><br>
                             </td>
                         </tr>
                         <tr>
                             <td style="width:75px">10:10-11:40</td>
                             <td style="width:auto">
-                                лек. Устройство и функционирование информационной системы<br>                                <br>
-ИС1-221-ОТ <br>
-ИС1-222-ОТ <br>
-ИС1-223-ОТ <br>
-ИС1-224-ОТ <br>
+                                Пр. Специальные главы математики<br>                                <br>
+ИС4-252-ОМ <br>
                                 <br>
-                                <a href="https://kis.vgltu.ru/map/rasp?auditory=314Л/Гл">314Л/Гл</a><br>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td style="width:75px">11:50-13:20</td>
-                            <td style="width:auto">
-                                лаб. Устройство и функционирование информационной системы<br>2 п.г.<br>                                <br>
-ИС1-222-ОТ <br>
-                                <br>
-                                <a href="https://kis.vgltu.ru/map/rasp?auditory=97Комп/Гл">97Комп/Гл</a><br>
+                                <a href="https://kis.vgltu.ru/map/rasp?auditory=13аДис">13аДис</a><br>
                             </td>
                         </tr>
             </tbody></table>
@@ -1498,96 +1525,194 @@
                     </tr>
                 </tbody></table>
             </div>
-            <div style="margin-bottom: 25px">
-                <div>
-                    <strong>27 октября 2025</strong>
-                </div>
-                <div>
-                    понедельник
-                </div>
-                <table>
-                    <tbody><tr>
-                        <td>
-                            Нет пар
-                        </td>
-                    </tr>
-                </tbody></table>
+        <div style="margin-bottom: 25px;">
+            <div>
+                <strong>27 октября 2025</strong>
             </div>
-            <div style="margin-bottom: 25px">
-                <div>
-                    <strong>28 октября 2025</strong>
-                </div>
-                <div>
-                    вторник
-                </div>
-                <table>
-                    <tbody><tr>
-                        <td>
-                            Нет пар
-                        </td>
-                    </tr>
-                </tbody></table>
+            <div>
+                понедельник
             </div>
-            <div style="margin-bottom: 25px">
-                <div>
-                    <strong>29 октября 2025</strong>
-                </div>
-                <div>
-                    среда
-                </div>
-                <table>
-                    <tbody><tr>
-                        <td>
-                            Нет пар
-                        </td>
-                    </tr>
-                </tbody></table>
+            <table>
+
+                        <tbody><tr>
+                            <td style="width:75px">13:40-15:10</td>
+                            <td style="width:auto">
+                                лек. Методы оптимизации<br>                                <br>
+ТМ2-231-ОБ <br>
+                                <br>
+                                <a href="https://kis.vgltu.ru/map/rasp?auditory=22Пр/Гл">22Пр/Гл</a><br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width:75px">15:20-16:50</td>
+                            <td style="width:auto">
+                                лек. Математика<br>                                <br>
+ТМ2-251-ОБ <br>
+                                <br>
+                                <a href="https://kis.vgltu.ru/map/rasp?auditory=28Пр/Гл">28Пр/Гл</a><br>
+                            </td>
+                        </tr>
+            </tbody></table>
+        </div>
+        <div style="margin-bottom: 25px;">
+            <div>
+                <strong>28 октября 2025</strong>
             </div>
-            <div style="margin-bottom: 25px">
-                <div>
-                    <strong>30 октября 2025</strong>
-                </div>
-                <div>
-                    четверг
-                </div>
-                <table>
-                    <tbody><tr>
-                        <td>
-                            Нет пар
-                        </td>
-                    </tr>
-                </tbody></table>
+            <div>
+                вторник
             </div>
-            <div style="margin-bottom: 25px">
-                <div>
-                    <strong>31 октября 2025</strong>
-                </div>
-                <div>
-                    пятница
-                </div>
-                <table>
-                    <tbody><tr>
-                        <td>
-                            Нет пар
-                        </td>
-                    </tr>
-                </tbody></table>
+            <table>
+
+                        <tbody><tr>
+                            <td style="width:75px">13:40-15:10</td>
+                            <td style="width:auto">
+                                пр. Методы оптимизации<br>                                <br>
+ТМ2-231-ОБ <br>
+                                <br>
+                                <a href="https://kis.vgltu.ru/map/rasp?auditory=28Пр/Гл">28Пр/Гл</a><br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width:75px">15:20-16:50</td>
+                            <td style="width:auto">
+                                пр. Математика<br>                                <br>
+ИМ2-251-ОБ <br>
+                                <br>
+                                <a href="https://kis.vgltu.ru/map/rasp?auditory=3Пр/Гл">3Пр/Гл</a><br>
+                            </td>
+                        </tr>
+            </tbody></table>
+        </div>
+        <div style="margin-bottom: 25px;">
+            <div>
+                <strong>29 октября 2025</strong>
             </div>
-            <div style="margin-bottom: 25px">
-                <div>
-                    <strong>01 ноября 2025</strong>
-                </div>
-                <div>
-                    суббота
-                </div>
-                <table>
-                    <tbody><tr>
-                        <td>
-                            Нет пар
-                        </td>
-                    </tr>
-                </tbody></table>
+            <div>
+                среда
             </div>
+            <table>
+
+                        <tbody><tr>
+                            <td style="width:75px">13:40-15:10</td>
+                            <td style="width:auto">
+                                Пр. Математика<br>                                <br>
+ИС2-242-ОБ <br>
+                                <br>
+                                <a href="https://kis.vgltu.ru/map/rasp?auditory=221Пр/Гл">221Пр/Гл</a><br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width:75px">15:20-16:50</td>
+                            <td style="width:auto">
+                                пр. Математика<br>                                <br>
+ИС2-251-ОБ <br>
+                                <br>
+                                <a href="https://kis.vgltu.ru/map/rasp?auditory=240Л/Гл">240Л/Гл</a><br>
+                            </td>
+                        </tr>
+            </tbody></table>
+        </div>
+        <div style="margin-bottom: 25px;">
+            <div>
+                <strong>30 октября 2025</strong>
+            </div>
+            <div>
+                четверг
+            </div>
+            <table>
+
+                        <tbody><tr>
+                            <td style="width:75px">13:40-15:10</td>
+                            <td style="width:auto">
+                                Лек. Математика<br>                                <br>
+ИС2-243-ОБ <br>
+ИС2-244-ОБ <br>
+ИМ2-241-ОБ <br>
+                                <br>
+                                <a href="https://kis.vgltu.ru/map/rasp?auditory=238Л/Гл">238Л/Гл</a><br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width:75px">15:20-16:50</td>
+                            <td style="width:auto">
+                                лек. Математика<br>                                <br>
+АП2-251-ОБ <br>
+                                <br>
+                                <a href="https://kis.vgltu.ru/map/rasp?auditory=221Пр/Гл">221Пр/Гл</a><br>
+                            </td>
+                        </tr>
+            </tbody></table>
+        </div>
+        <div style="margin-bottom: 25px;">
+            <div>
+                <strong>31 октября 2025</strong>
+            </div>
+            <div>
+                пятница
+            </div>
+            <table>
+
+                        <tbody><tr>
+                            <td style="width:75px">13:40-15:10</td>
+                            <td style="width:auto">
+                                Пр. Математика<br>                                <br>
+ИС2-241-ОБ <br>
+                                <br>
+                                <a href="https://kis.vgltu.ru/map/rasp?auditory=240Л/Гл">240Л/Гл</a><br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width:75px">15:20-16:50</td>
+                            <td style="width:auto">
+                                лек. Математика<br>                                <br>
+ИС2-251-ОБ <br>
+ИС2-252-ОБ <br>
+ИС2-253-ОБ <br>
+                                <br>
+                                <a href="https://kis.vgltu.ru/map/rasp?auditory=234Л/Гл">234Л/Гл</a><br>
+                            </td>
+                        </tr>
+            </tbody></table>
+        </div>
+        <div style="margin-bottom: 25px;">
+            <div>
+                <strong>01 ноября 2025</strong>
+            </div>
+            <div>
+                суббота
+            </div>
+            <table>
+
+                        <tbody><tr>
+                            <td style="width:75px">08:30-10:00</td>
+                            <td style="width:auto">
+                                Пр. Специальные главы математики<br>                                <br>
+ИС4-252-ОМ <br>
+                                <br>
+                                <a href="https://kis.vgltu.ru/map/rasp?auditory=13аДис">13аДис</a><br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width:75px">10:10-11:40</td>
+                            <td style="width:auto">
+                                лек. Специальные главы математики<br>                                <br>
+ИС4-251-ОМ <br>
+ИС4-252-ОМ <br>
+                                <br>
+                                <a href="https://kis.vgltu.ru/map/rasp?auditory=11аДис">11аДис</a><br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width:75px">11:50-13:20</td>
+                            <td style="width:auto">
+                                Пр. Специальные главы математики<br>                                <br>
+ИС4-251-ОМ <br>
+                                <br>
+                                <a href="https://kis.vgltu.ru/map/rasp?auditory=11аДис">11аДис</a><br>
+                            </td>
+                        </tr>
+            </tbody></table>
+        </div>
             <div style="margin-bottom: 25px">
                 <div>
                     <strong>02 ноября 2025</strong>
@@ -1727,7 +1852,7 @@
 <input id="daysAud" style="width: 90%; height: 50px; margin-top: 5px;" type="date" autofocus=""></div>
 <button id="raspButtonAud" class="button" style="width: 25%; height: 65px; margin-left: 15px;">Найти</button></div>
 </div>
-<div style="text-align: center;"><img id="preloaderAud" style="display: none; margin: auto; opacity: 0.3; height: 256px; width: 256px; transform: rotate(646deg);" src="https://vgltu.ru/templates/default/images/logo.svg"></div>
+<div style="text-align: center;"><img id="preloaderAud" style="display: none; margin: auto; opacity: 0.3; height: 256px; width: 256px; transform: rotate(706deg);" src="https://vgltu.ru/templates/default/images/logo.svg"></div>
 <h2 id="auditoryName" style="text-align: center;"></h2>
 <div id="raspTableAud" style="width: 100%;"></div>
 <div>
