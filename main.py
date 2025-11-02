@@ -124,6 +124,9 @@ def get_current_student_table():
     lec_line = 0
     fout.write(current_date+ "\n")
     for line in fin:
+        if "Нет пар" in line:
+            fout.write("Сегодня пар нет")
+            break
         # день
         if line_count == 6:
             fout.write(line.replace(" ", ""))
@@ -267,6 +270,9 @@ def get_current_teacher_table():
     go_cycle = 0
     fout.write(current_date + "\n")
     for line in fin:
+        if "Нет пар" in line:
+            fout.write("Сегодня пар нет")
+            break
         # день
         if line_count == 6:
             fout.write(line.replace(" ", ""))
@@ -301,7 +307,10 @@ class TimeToStartStudent(QtCore.QThread):
             fin = open("raspisanie.txt", "r", encoding='utf-8')
             line_number = 1
             er = 0
+            no_pairs = 0
             for line in fin:
+                if "пар нет" in line:
+                    no_pairs = 1
                 if (line_number == er+3) and ("2 п.г." in line):
                     break
                 elif line_number == er+3:
@@ -318,6 +327,8 @@ class TimeToStartStudent(QtCore.QThread):
             needed_line_number = 1
             start_time = ""
             for line in fin:
+                if no_pairs:
+                    break
                 if (needed_line_number == line_number-4 and ":" in line) or (needed_line_number == line_number-1 and ":" in line) or (needed_line_number == line_number-2 and ":" in line):
                     start_time = line[:5]
                     break
@@ -327,6 +338,9 @@ class TimeToStartStudent(QtCore.QThread):
             #print(needed_line_number)
             #print(start_time)
             for i in range(0,59):
+                if no_pairs:
+                    time.sleep(60)
+                    break
                 current_time = datetime.now()
                 current_min = current_time.minute
                 current_hour = current_time.hour
@@ -352,7 +366,10 @@ class TimeToStartTeacher(QtCore.QThread):
             start_time = ""
             fin = open("raspisanie.txt", "r", encoding='utf-8')
             line_number = 1
+            no_pairs = 0
             for line in fin:
+                if "пар нет" in line:
+                    no_pairs = 1
                 if line_number == 4:
                     start_time = line[:5]
                     break
@@ -360,6 +377,9 @@ class TimeToStartTeacher(QtCore.QThread):
                     line_number += 1
             fin.close()
             for i in range(0,59):
+                if no_pairs:
+                    time.sleep(60)
+                    break
                 current_time = datetime.now()
                 current_min = current_time.minute
                 current_hour = current_time.hour
@@ -465,6 +485,7 @@ class RaspisanieStudent(QWidget):
         self.l_2pg.setFont(font)
         self.l_2pg.setAlignment(Qt.AlignmentFlag.AlignCenter)
         self.l_2pg.setGeometry(601, 40, 599, 20)
+
         fin = open("raspisanie.txt", "r", encoding='utf-8')
         line_count = 1
         go_cycle = 0
@@ -476,6 +497,11 @@ class RaspisanieStudent(QWidget):
         current_place_teacher = 40
         current_place = 0
         for line in fin:
+            if "пар нет" in line:
+                self.l_1pg = QLabel("Сегодня пар нет, либо неправильно введена группа", parent=self)
+                self.l_1pg.setFont(font)
+                self.l_1pg.setAlignment(Qt.AlignmentFlag.AlignCenter)
+                self.l_1pg.setGeometry(0, 80, 1200, 20)
             if line_count == good_sign+1 and "2 п.г." in line:
                 just_second_predm = 1
             # Дата
@@ -605,6 +631,11 @@ class RaspisanieTeacher(QWidget):
         group_print = 0
         more_than_one_group = 0
         for line in fin:
+            if "пар нет" in line:
+                self.l_1pg = QLabel("Сегодня пар нет, либо неправильно введён преподаватель", parent=self)
+                self.l_1pg.setFont(font)
+                self.l_1pg.setAlignment(Qt.AlignmentFlag.AlignCenter)
+                self.l_1pg.setGeometry(0, 80, 1000, 20)
             if line_count == 1:
             # Дата
                 self.l_date = QLabel(line, parent=self)
