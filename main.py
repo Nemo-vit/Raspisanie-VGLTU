@@ -11,28 +11,45 @@ import time
 
 import sys
 from PyQt5.QtGui import QRegion, QFont, QColor, QIcon, QPainter, QPen
-from PyQt5.QtWidgets import QApplication, QWidget, QLabel, QLineEdit, QPushButton, QMenu, QDesktopWidget
-from PyQt5.QtCore import Qt
+from PyQt5.QtWidgets import QVBoxLayout, QApplication, QWidget, QLabel, QLineEdit, QPushButton, QMenu, QDesktopWidget, QCalendarWidget
+from PyQt5.QtCore import Qt, QDate
 from PyQt5 import QtCore
 
 group_code = ""
 teacher_name = ""
+chosen_date = ""
+# Определенее текущей даты
+current_datetime = datetime.now()
+current_day = current_datetime.day
+current_month = current_datetime.month
+current_year = current_datetime.year
+
+# Вычисляем следующую дату (завтра)
+next_month = 0
+next_day = 0
+next_year = 0
 
 # --------------------------------- ТЕКУЩЕЕ РАСПИСАНИЕ ------------------------------------
 # готово, всё верно
 def get_current_student_table():
-    # Получение текущей даты
-    current_datetime = datetime.now()
-    current_day = current_datetime.day
-    current_month = current_datetime.month
-    current_year = current_datetime.year
+    global current_day
+    global current_month
+    global current_year
     formatted_date = dates.format_date(
         date(current_year, current_month, current_day),
         format='long',
         locale='ru_RU'
     )
-    current_date = formatted_date[:formatted_date.find(" ",formatted_date.find(" ")+1)]
-
+    current_date = formatted_date[:formatted_date.find(" ", formatted_date.find(" ") + 1)]
+    global next_day
+    global next_month
+    global next_year
+    formatted_date = dates.format_date(
+        date(next_year, next_month, next_day),
+        format='long',
+        locale='ru_RU'
+    )
+    next_date = formatted_date[:formatted_date.find(" ", formatted_date.find(" ") + 1)]
     # Получение кода страницы
     # Драйвер + открытие страницы
     chrome_options = Options()
@@ -45,6 +62,16 @@ def get_current_student_table():
     input_field = driver.find_element(By.ID, "searchGroup")
     global group_code
     input_field.send_keys(group_code)
+    # Ждём прогрузки страницы
+    time.sleep(2)
+    current_day_str = str(current_day)
+    current_month_str = str(current_month)
+    if current_day < 10:
+        current_day_str = "0" + current_day_str
+    if current_month < 10:
+        current_month_str = "0" + current_month_str
+    input_field = driver.find_element(By.ID, "daysGroup")
+    input_field.send_keys(current_day_str + current_month_str + str(current_year))
     # Ждём прогрузки страницы
     time.sleep(2)
     # Выполнение действия
@@ -74,18 +101,6 @@ def get_current_student_table():
     fin.close()
     start_string = i - 3
     # Поиск конечной строки
-    # Вычисляем следующую дату (завтра)
-    today = datetime.today()
-    tomorrow = today + timedelta(days=1)
-    next_month = tomorrow.month
-    next_day = tomorrow.day
-    next_year = tomorrow.year
-    formatted_date = dates.format_date(
-        date(next_year, next_month, next_day),
-        format='long',
-        locale='ru_RU'
-    )
-    next_date = formatted_date[:formatted_date.find(" ",formatted_date.find(" ")+1)]
     # Получаем номер последней строки
     fin = open("page.txt",encoding='utf-8')
     j = 0
@@ -166,18 +181,24 @@ def get_current_student_table():
 
 # готово, всё верно
 def get_current_teacher_table():
-    # Получение текущей даты
-    current_datetime = datetime.now()
-    current_day = current_datetime.day
-    current_month = current_datetime.month
-    current_year = current_datetime.year
+    global current_day
+    global current_month
+    global current_year
     formatted_date = dates.format_date(
         date(current_year, current_month, current_day),
         format='long',
         locale='ru_RU'
     )
-    current_date = formatted_date[:formatted_date.find(" ",formatted_date.find(" ")+1)]
-
+    current_date = formatted_date[:formatted_date.find(" ", formatted_date.find(" ") + 1)]
+    global next_day
+    global next_month
+    global next_year
+    formatted_date = dates.format_date(
+        date(next_year, next_month, next_day),
+        format='long',
+        locale='ru_RU'
+    )
+    next_date = formatted_date[:formatted_date.find(" ", formatted_date.find(" ") + 1)]
     # Получение кода страницы
     # Драйвер + открытие страницы
     chrome_options = Options()
@@ -195,6 +216,16 @@ def get_current_teacher_table():
     input_field = driver.find_element(By.ID, "searchTeacher")
     global teacher_name
     input_field.send_keys(teacher_name)
+    # Ждём прогрузки страницы
+    time.sleep(2)
+    current_day_str = str(current_day)
+    current_month_str = str(current_month)
+    if current_day < 10:
+        current_day_str = "0" + current_day_str
+    if current_month < 10:
+        current_month_str = "0" + current_month_str
+    input_field = driver.find_element(By.ID, "daysTeacher")
+    input_field.send_keys(current_day_str + current_month_str + str(current_year))
     # Ждём прогрузки страницы
     time.sleep(2)
     # Выполнение действия
@@ -224,18 +255,6 @@ def get_current_teacher_table():
     fin.close()
     start_string = i - 3
     # Поиск конечной строки
-    # Вычисляем следующую дату (завтра)
-    today = datetime.today()
-    tomorrow = today + timedelta(days=1)
-    next_month = tomorrow.month
-    next_day = tomorrow.day
-    next_year = tomorrow.year
-    formatted_date = dates.format_date(
-        date(next_year, next_month, next_day),
-        format='long',
-        locale='ru_RU'
-    )
-    next_date = formatted_date[:formatted_date.find(" ", formatted_date.find(" ") + 1)]
     # Получаем номер последней строки
     fin = open("page.txt", encoding='utf-8')
     j = 0
@@ -401,40 +420,60 @@ class GetGroupCodeOrTeacherName(QWidget):
         self.setWindowTitle("Ввод группы")
         icon = QIcon('logo.png')
         self.setWindowIcon(icon)
-        self.setGeometry(850, 430, 600, 200)
-        self.setFixedSize(600, 200)
+        self.setGeometry(850, 430, 600, 300)
+        self.setFixedSize(600, 300)
         self.setStyleSheet("background-color: rgb(255, 255, 255);")
         # Вывод текста в окно
         font = QFont("Arial", 14)
+        # Для даты
+        self.dat = QLabel("Введите дату:", parent=self)
+        self.dat.setFont(font)
+        self.dat.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        self.dat.setGeometry(0, 20, 600, 20)
+        # Поле для ввода даты
+        self.lineEdit3 = QLineEdit(parent=self)
+        self.lineEdit3.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        self.lineEdit3.setGeometry(250, 60, 100, 20)
+        global current_day
+        global current_month
+        global current_year
+        current_day_str = str(current_day)
+        current_month_str = str(current_month)
+        if current_day < 10:
+            current_day_str = "0" +current_day_str
+        if current_month < 10:
+            current_month_str = "0" +current_month_str
+        self.lineEdit3.setText(current_day_str + "." + current_month_str + "." + str(current_year))
+        self.lineEdit3.setObjectName("lineEdit")
        # Для группы
         self.lab = QLabel("Введите код группы:", parent=self)
         self.lab.setFont(font)
         self.lab.setAlignment(Qt.AlignmentFlag.AlignCenter)
-        self.lab.setGeometry(0, 20, 300, 20)
+        self.lab.setGeometry(0, 100, 300, 20)
         # Поле для ввода группы
         self.lineEdit1 = QLineEdit(parent=self)
         self.lineEdit1.setAlignment(Qt.AlignmentFlag.AlignCenter)
-        self.lineEdit1.setGeometry(100, 80, 100, 20)
+        self.lineEdit1.setGeometry(100, 160, 100, 20)
         self.lineEdit1.setText("ИС4-242-ОМ")
         self.lineEdit1.setObjectName("lineEdit")
         # Кнопка
         self.btn1 = QPushButton("Выполнить", self)
-        self.btn1.move(114, 130)
+        self.btn1.move(114, 210)
         self.btn1.clicked.connect(self.button1_clicked)
        # Для препода
         self.lab = QLabel("Введите имя преподавателя:", parent=self)
         self.lab.setFont(font)
         self.lab.setAlignment(Qt.AlignmentFlag.AlignCenter)
-        self.lab.setGeometry(300, 20, 300, 20)
+        self.lab.setGeometry(300, 100, 300, 20)
         # Поле для ввода группы
         self.lineEdit2 = QLineEdit(parent=self)
         self.lineEdit2.setAlignment(Qt.AlignmentFlag.AlignCenter)
-        self.lineEdit2.setGeometry(400, 80, 100, 20)
+        self.lineEdit2.setGeometry(400, 160, 100, 20)
         self.lineEdit2.setText("Федоров В.Ю.")
         self.lineEdit2.setObjectName("lineEdit")
         # Кнопка
         self.btn2 = QPushButton("Выполнить", self)
-        self.btn2.move(414, 130)
+        self.btn2.move(414, 210)
         self.btn2.clicked.connect(self.button2_clicked)
         self.center()
 
@@ -450,14 +489,44 @@ class GetGroupCodeOrTeacherName(QWidget):
 
     def button1_clicked(self):
         global group_code
+        global current_day
+        global current_month
+        global current_year
         group_code = self.lineEdit1.text()
+        current_day = int(self.lineEdit3.text()[:2])
+        current_month = int(self.lineEdit3.text()[3:5])
+        current_year = int(self.lineEdit3.text()[6:10])
+        global current_datetime
+        global next_day
+        global next_month
+        global next_year
+        current_datetime = current_datetime.replace(year=current_year, month=current_month, day=current_day)
+        tomorrow = current_datetime + timedelta(days=1)
+        next_month = tomorrow.month
+        next_day = tomorrow.day
+        next_year = tomorrow.year
         self.round_window = RoundWidget("student")
         self.round_window.show()
         self.close()
 
     def button2_clicked(self):
         global teacher_name
+        global current_day
+        global current_month
+        global current_year
         teacher_name = self.lineEdit2.text()
+        current_day = int(self.lineEdit3.text()[:2])
+        current_month = int(self.lineEdit3.text()[3:5])
+        current_year = int(self.lineEdit3.text()[6:10])
+        global current_datetime
+        global next_day
+        global next_month
+        global next_year
+        current_datetime = current_datetime.replace(year=current_year, month=current_month, day=current_day)
+        tomorrow = current_datetime + timedelta(days=1)
+        next_month = tomorrow.month
+        next_day = tomorrow.day
+        next_year = tomorrow.year
         self.round_window = RoundWidget("teacher")
         self.round_window.show()
         self.close()
@@ -779,7 +848,7 @@ if __name__ == "__main__":
 
     #app = QApplication(sys.argv)
     # Создание окна
-    #widget = RaspisanieStudent()
+    #widget = RaspisanieTeacher()
     # Показать окно
     #widget.show()
     #sys.exit(app.exec_())
