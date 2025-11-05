@@ -298,6 +298,8 @@ def get_current_teacher_table():
     line_count = 1
     good_sign = 0
     go_cycle = 0
+    auditory = ""
+    group_printed = 0
     fout.write(current_date + "\n")
     for line in fin:
         if "Нет пар" in line:
@@ -315,12 +317,19 @@ def get_current_teacher_table():
             fout.write("\n" + line[32:line.find("<")] + "\n" + line[line.find("<br>") + 4:line.find("<br>") + 10])
         elif line_count == (good_sign + 2) and not ("п.г." in line) and line_count > 3:
             fout.write("\n" + line[32:line.find("<")])
+        # Аудитория
+        if "auditory=" in line:
+            auditory = line[80:line.find("\">")]
+        if group_printed:
+            fout.write("\n" + auditory + "\n")
+            group_printed = 0
         # Группа
         if ((line_count == (good_sign + 3) or go_cycle) and not (line.replace(" ", "").replace("\n", "") == "<br>")) and line_count > 3:
             fout.write("\n" + line[0:line.find(" <")])
             go_cycle = 1
         elif line.replace(" ", "").replace("\n", "") == "<br>" and line_count > 3 and go_cycle:
             go_cycle = 0
+            group_printed = 1
         line_count += 1
 # -----------------------------------------------------------------------------------------
 
@@ -794,7 +803,7 @@ class RaspisanieTeacher(QWidget):
                     else:
                         group_to_print  += line
                         group_print = 1
-                elif " " not in line and ":" not in line:
+                elif " " not in line and ":" not in line and "-" in line:
                     self.predm = QLabel(line, parent=self)
                     self.predm.setFont(font)
                     self.predm.setAlignment(Qt.AlignmentFlag.AlignCenter)
@@ -896,18 +905,18 @@ class RoundWidget(QWidget):
             self.setStyleSheet("background-color: rgb(255, 0, 0);")
 
 if __name__ == "__main__":
-    app = QApplication(sys.argv)
-    # Создание окна
-    widget = GetGroupCodeOrTeacherName()
-    # Показать окно
-    widget.show()
-    sys.exit(app.exec_())
-
     #app = QApplication(sys.argv)
     # Создание окна
-    #widget = RaspisanieStudent()
+    #widget = GetGroupCodeOrTeacherName()
     # Показать окно
     #widget.show()
     #sys.exit(app.exec_())
+
+    app = QApplication(sys.argv)
+    # Создание окна
+    widget = RaspisanieTeacher()
+    # Показать окно
+    widget.show()
+    sys.exit(app.exec_())
 
 # -----------------------------------------------------------------------------------------
