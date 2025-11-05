@@ -1,5 +1,5 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:umi="http://www.umi-cms.ru/TR/umi" xml:lang="ru"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Расписание занятий | ВГЛТУ</title><meta name="viewport" content="initial-scale=1.0, user-scalable=no, target-densitydpi=low-dpi"><meta name="description" content="Воронежский государственный лесотехнический университет имени Г.Ф. Морозова — Федеральное государственное бюджетное образовательное учреждение высшего образования"><meta name="keywords" content=""><meta name="format-detection" content="telephone=no"><meta http-equiv="x-rim-auto-match" content="none"><meta property="og:image" content="http://vgltu.ru/templates/default/images/logo.svg"><meta property="og:title" content="Расписание занятий | ВГЛТУ"><meta name="yandex-verification" content="5e3ae5184131b89a"><link rel="canonical" href="https://vgltu.ru/obuchayushchimsya/raspisanie-zanyatij/"><link rel="apple-touch-icon" sizes="57x57" href="/templates/default/images/favicon/apple-icon-57x57.png"><link rel="apple-touch-icon" sizes="60x60" href="/templates/default/images/favicon/apple-icon-60x60.png"><link rel="apple-touch-icon" sizes="72x72" href="/templates/default/images/favicon/apple-icon-72x72.png"><link rel="apple-touch-icon" sizes="76x76" href="/templates/default/images/favicon/apple-icon-76x76.png"><link rel="apple-touch-icon" sizes="114x114" href="/templates/default/images/favicon/apple-icon-114x114.png"><link rel="apple-touch-icon" sizes="120x120" href="/templates/default/images/favicon/apple-icon-120x120.png"><link rel="apple-touch-icon" sizes="144x144" href="/templates/default/images/favicon/apple-icon-144x144.png"><link rel="apple-touch-icon" sizes="152x152" href="/templates/default/images/favicon/apple-icon-152x152.png"><link rel="apple-touch-icon" sizes="180x180" href="/templates/default/images/favicon/apple-icon-180x180.png"><link rel="icon" type="image/png" sizes="192x192" href="/templates/default/images/favicon/android-icon-192x192.png"><link rel="icon" type="image/png" sizes="32x32" href="/templates/default/images/favicon/favicon-32x32.png"><link rel="icon" type="image/png" sizes="96x96" href="/templates/default/images/favicon/favicon-96x96.png"><link rel="icon" type="image/png" sizes="16x16" href="/templates/default/images/favicon/favicon-16x16.png"><link href="/templates/default/css/style.css" rel="stylesheet" type="text/css"><link href="/templates/default/css/style-for-all-users.css?v=20250117" rel="stylesheet" type="text/css"><link rel="stylesheet" type="text/css" href="/templates/default/js/fancybox2/jquery.fancybox.css"><link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.7/slick.css"><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-CJXD206DVD&amp;cx=c&amp;gtm=4e5b40h2"></script><script type="text/javascript" async="" id="tmr-code" src="https://top-fwz1.mail.ru/js/code.js"></script><script async="" src="https://mc.yandex.ru/metrika/tag.js"></script><script type="text/javascript">
+<title>Расписание занятий | ВГЛТУ</title><meta name="viewport" content="initial-scale=1.0, user-scalable=no, target-densitydpi=low-dpi"><meta name="description" content="Воронежский государственный лесотехнический университет имени Г.Ф. Морозова — Федеральное государственное бюджетное образовательное учреждение высшего образования"><meta name="keywords" content=""><meta name="format-detection" content="telephone=no"><meta http-equiv="x-rim-auto-match" content="none"><meta property="og:image" content="http://vgltu.ru/templates/default/images/logo.svg"><meta property="og:title" content="Расписание занятий | ВГЛТУ"><meta name="yandex-verification" content="5e3ae5184131b89a"><link rel="canonical" href="https://vgltu.ru/obuchayushchimsya/raspisanie-zanyatij/"><link rel="apple-touch-icon" sizes="57x57" href="/templates/default/images/favicon/apple-icon-57x57.png"><link rel="apple-touch-icon" sizes="60x60" href="/templates/default/images/favicon/apple-icon-60x60.png"><link rel="apple-touch-icon" sizes="72x72" href="/templates/default/images/favicon/apple-icon-72x72.png"><link rel="apple-touch-icon" sizes="76x76" href="/templates/default/images/favicon/apple-icon-76x76.png"><link rel="apple-touch-icon" sizes="114x114" href="/templates/default/images/favicon/apple-icon-114x114.png"><link rel="apple-touch-icon" sizes="120x120" href="/templates/default/images/favicon/apple-icon-120x120.png"><link rel="apple-touch-icon" sizes="144x144" href="/templates/default/images/favicon/apple-icon-144x144.png"><link rel="apple-touch-icon" sizes="152x152" href="/templates/default/images/favicon/apple-icon-152x152.png"><link rel="apple-touch-icon" sizes="180x180" href="/templates/default/images/favicon/apple-icon-180x180.png"><link rel="icon" type="image/png" sizes="192x192" href="/templates/default/images/favicon/android-icon-192x192.png"><link rel="icon" type="image/png" sizes="32x32" href="/templates/default/images/favicon/favicon-32x32.png"><link rel="icon" type="image/png" sizes="96x96" href="/templates/default/images/favicon/favicon-96x96.png"><link rel="icon" type="image/png" sizes="16x16" href="/templates/default/images/favicon/favicon-16x16.png"><link href="/templates/default/css/style.css" rel="stylesheet" type="text/css"><link href="/templates/default/css/style-for-all-users.css?v=20250117" rel="stylesheet" type="text/css"><link rel="stylesheet" type="text/css" href="/templates/default/js/fancybox2/jquery.fancybox.css"><link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.7/slick.css"><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-CJXD206DVD&amp;cx=c&amp;gtm=4e5b31"></script><script type="text/javascript" async="" id="tmr-code" src="https://top-fwz1.mail.ru/js/code.js"></script><script async="" src="https://mc.yandex.ru/metrika/tag.js"></script><script type="text/javascript">
 					(window.Image ? (new Image()) : document.createElement('img')).src =
 					location.protocol +
 					'//vk.com/rtrg?r=yfLE7jyqhe3Hy0UahEp3v1MTAZY1WSVahrDYAfhSGi4wXS8U1NlHPhfDdgZ4CTaHhE3inYgsJIXLfGcHnJ1GSYyGcQN8CUKpUK8Z04UcvDOJJCHWubNh4pe0p3TGz5eVyTnoKNYsT4vUYSib6NdPnJ0dxqsaD4LwBW44kuyloP8-';
@@ -7,9 +7,9 @@
 					(window.Image ? (new Image()) : document.createElement('img')).src =
 					'https://vk.com/rtrg?p=VK-RTRG-205288-c8Jje';
 				</script><script type="text/javascript" async="" src="https://vk.com/js/api/openapi.js?168"></script></head><body class=""><div xmlns="" class="menu-mobile"><div class="menu-icon"></div></div>
-<div xmlns="" class="menu-block" style="height: 5793px;">
+<div xmlns="" class="menu-block" style="height: 4670px;">
 <div class="menu-icon">Меню</div>
-<div class="menu" style="height: 5793px;">
+<div class="menu" style="height: 4670px;">
 <div class="menu-item">
 <div class="menu-item-header sved">
 <a href="/sveden/"><span class="span"><span>Сведения об образовательной организации</span></span></a><div class="submenu-icon"></div>
@@ -1226,23 +1226,132 @@
 <div xmlns="" class="header-menu-item"><a href="/vypusknikam/"><span>Выпускникам</span></a></div></div><div itemprop="Copy" class="header-verforvi-icon"></div><div class="header-search-icon"></div><div class="header-language-block"><div class="header-language"><a class="active lang lang-ru">RU</a><a class="lang lang-en" href="/en">EN</a><a class="lang lang-fr" href="/fr">FR</a><a class="lang lang-tk" href="/tk">TK</a><a class="lang lang-zh" href="/zh">ZH</a></div></div></div><div class="header-center"><a href="/" class="logo"><div class="logo-img"><img src="/templates/default/images/logo95.svg" alt="Воронежский Государственный Лесотехнический университет Воронеж"></div></a><div class="header-mark"><img src="/images/mark.png" alt="Воронежское качество 2022"></div><div class="header-links"><div class="header-links-item"><a href="/lc/" class="lk">Личный кабинет</a></div><div class="header-links-item"><a href="http://portfolio.vgltu.ru/" class="portfolio" target="_blank">
 														Портфолио студентов</a></div><div class="header-links-item"><a href="/sveden/" class="sooo">Сведения об образовательной организации</a></div></div></div></div><ul class="breadcrumbs"><li class="breadcrumbs-item"><a href="/">Главная</a></li><li xmlns="" class="breadcrumbs-item noactive"><a>Обучающимся</a></li>
 <li xmlns="" class="breadcrumbs-item noactive last"><a>Расписание занятий</a></li></ul><h1>Расписание занятий</h1><div xmlns="" class="content"><div class="tabs">
-<div class="tab active" id="tab-1">Интерактивное расписание</div>
-<div class="tab" id="tab-2">Интерактивное расписание преподавателя</div>
+<div class="tab" id="tab-1">Интерактивное расписание</div>
+<div class="tab active" id="tab-2">Интерактивное расписание преподавателя</div>
 <div class="tab" id="tab-3">Интерактивное расписание по аудитории</div>
 </div></div>
 <div xmlns="" class="tabs-content">
-<div class="tab-content" id="tab-1-content"><div class="content"><div id="raspMainGroup">
+<div class="tab-content" id="tab-1-content" style="display: none;"><div class="content"><div id="raspMainGroup">
 <div id="controlsGroup" style="margin: 30px;">
 <h4>Начните вводить имя группы и выберите из списка</h4>
 <div class="form-item-field" style="display: flex; justify-content: around; align-items: center; width: 100%;">
 <div style="display: flex; flex-direction: column; width: 100%;"><input id="searchGroup" style="width: 90%; height: 50px;" list="lsGroup" type="text" autofocus="">
-<datalist id="lsGroup" style="background-color: red;"><option value="ИС1-233-ОТ"></option></datalist>
+<datalist id="lsGroup" style="background-color: red;"><option value=""></option><option value="АП2-211-ЗБ"></option><option value="АП2-211-ЗБ-Д"></option><option value="АП2-221-ЗБ"></option><option value="АП2-221-ЗБ-Д"></option><option value="АП2-221-ОБ"></option></datalist>
 <input id="daysGroup" style="width: 90%; height: 50px; margin-top: 5px;" type="date"></div>
 <button id="raspButtonGroup" class="button" style="width: 25%; height: 65px; margin-left: 15px;">Найти</button></div>
 </div>
-<div style="text-align: center;"><img id="preloaderGroup" style="display: none; margin: auto; opacity: 0.3; height: 256px; width: 256px; transform: rotate(643deg);" src="https://vgltu.ru/templates/default/images/logo.svg"></div>
-<h2 id="groupName" style="text-align: center;">ИС1-233-ОТ</h2>
-<div id="raspTableGroup" style="width: 100%; height: 100%;">
+<div style="text-align: center;"><img id="preloaderGroup" style="display: none; margin: auto; opacity: 0.3; height: 256px; width: 256px; transform: rotate(860deg);" src="https://vgltu.ru/templates/default/images/logo.svg"></div>
+<h2 id="groupName" style="text-align: center;"></h2>
+<div id="raspTableGroup" style="width: 100%; height: 100%;"></div>
+<div>
+<script>
+
+			let jsGroup = null;
+
+			async function LoadGroup() {
+				let sel = document.getElementById('searchGroup');
+				let resp = await fetch('https://kis.vgltu.ru/list?type=Group');
+				jsGroup = await resp.json();
+				let str = '';
+				let maxValue = 6;
+				if (window.innerHeight > window.innerWidth){
+					maxValue = 4;
+				}
+				let i = 0;
+				jsGroup.forEach(element => {
+					if (i++ < maxValue){
+						str += `<option value="${element}"></option>`;
+					}
+				});
+				document.getElementById("lsGroup").innerHTML = str;
+			}
+
+			async function AddTableGroup() {
+				document.querySelector("#raspTableGroup").innerHTML = "";
+				document.querySelector("#groupName").innerText = "";
+				let input = document.querySelector("#searchGroup").value;
+				let date = document.querySelector("#daysGroup").value;
+				let preloaderGroup = document.getElementById("preloaderGroup");
+				document.cookie = `schdGroup=${encodeURIComponent(input)}; max-age=604800; path=/;`;
+				preloaderGroup.style.display = "block";
+
+				let resp = await fetch(`https://kis.vgltu.ru/schedule?date=${date}&group=${input}`);
+				let text = await resp.text();
+
+				preloaderGroup.style.display = "none";
+				document.querySelector("#groupName").innerText = input;
+				document.querySelector("#raspTableGroup").innerHTML = text;
+				setMenuHeight();
+			}
+
+
+			async function UpdateListGroup(){
+				let inp = document.getElementById("searchGroup").value.toLowerCase();
+				let arr = jsGroup.filter(element => element.toLowerCase().startsWith(inp)).slice(0,5);
+				let str = '';
+				arr.forEach(element => {
+					str += `<option value="${element}"></option>`;
+				});
+				document.getElementById('lsGroup').innerHTML = str;
+			}
+			let degreeGroup = 0;
+			function RotateGroup()
+			{
+				let pr = document.getElementById("preloaderGroup");
+				degreeGroup = degreeGroup + 1;
+				pr.style.transform = 'rotate('+degreeGroup+'deg)'; 
+			}
+
+			function addDateInInput() {
+				let now = new Date();
+				let dd = String(now.getDate()).padStart(2, '0');
+				let mm = String(now.getMonth() + 1).padStart(2, '0');
+				let yyyy = now.getFullYear();
+				newNow = yyyy + '-' + mm + '-' + dd ;
+				let input = document.getElementById('daysGroup');
+				input.value = newNow;
+			}
+			function getCookieG(name) {
+				let matches = document.cookie.match(new RegExp(
+					"(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"
+				));
+				return matches ? decodeURIComponent(matches[1]) : undefined;
+			}
+			document.addEventListener("DOMContentLoaded", () => {
+				LoadGroup();
+				addDateInInput();
+
+				if (getCookieG('schdGroup') != null){
+					document.querySelector("#searchGroup").value = getCookieG('schdGroup');
+					AddTableGroup();
+				}
+
+				document.getElementById("raspButtonGroup").addEventListener("click", () => {
+					AddTableGroup();
+				});
+				document.getElementById("searchGroup").addEventListener("input", (event) => {document.getElementById("searchGroup").value = document.getElementById("searchGroup").value.toUpperCase() ;UpdateListGroup();});
+				document.body.addEventListener("keyup", (event) => {if (event.keyCode === 13){AddTableGroup();}});
+				setInterval(RotateGroup,10);
+				document.getElementById('tab-1').onclick = ()=>{setTimeout(()=>{document.getElementById('searchGroup').focus()}, 500)}
+				document.getElementById('tab-2').onclick = ()=>{setTimeout(()=>{document.getElementById('searchTeacher').focus()}, 500)}
+				document.getElementById('tab-3').onclick = ()=>{setTimeout(()=>{document.getElementById('searchAud').focus()}, 500)}
+			});
+		</script>
+</div>
+</div></div></div>
+<div class="tab-content" id="tab-2-content" style="display: block;"><div class="content"><div id="raspMainTeacher">
+<div id="controlsTeacher" style="margin: 30px;">
+<h4>Начните вводить фамилию преподавателя и выберите Ф.И.О. из списка</h4>
+<div class="form-item-field" style="display: flex; justify-content: around; align-items: center; width: 100%;">
+<div style="display: flex; flex-direction: column; width: 100%;"><input id="searchTeacher" style="width: 90%; height: 50px;" list="lsTeacher" type="text" autofocus="">
+<datalist id="lsTeacher" style="background-color: red;"><option value="Федоров В.Ю."></option></datalist>
+<input id="daysTeacher" style="width: 90%; height: 50px; margin-top: 5px;" type="date"></div>
+<button id="raspButtonTeacher" class="button" style="width: 25%; height: 65px; margin-left: 15px;">Найти</button></div>
+</div>
+</div>
+<div style="text-align: center;"><img id="preloaderTeacher" style="display: none; margin: auto; opacity: 0.3; height: 256px; width: 256px;" src="https://vgltu.ru/templates/default/images/logo.svg"></div>
+<h2 id="teacherName" style="text-align: center;">Федоров В.Ю.</h2>
+<div id="raspTableTeacher" style="width: 100%;">
 <div class="table" style="max-height:100%">
         <div style="margin-bottom: 25px;">
             <div>
@@ -1254,67 +1363,21 @@
             <table>
 
                         <tbody><tr>
-                                    <td style="width:75px" rowspan="1">08:30-10:00</td>
+                            <td style="width:75px">08:30-10:00</td>
                             <td style="width:auto">
-                                лек. Компьютерные сети<br>                                <br>
-ИС1-231-ОТ<br>
-ИС1-232-ОТ<br>
-ИС1-233-ОТ<br>
-ИС1-234-ОТ<br>
+                                лаб. Устройство и функционирование информационной системы<br>2 п.г.<br>                                <br>
+ИС1-226-ОТ <br>
                                 <br>
-                                <a href="https://vgltu.ru/map/rasp?auditory=238Л/Гл">238Л/Гл</a><br>
-                                Мальцев В.В.<br>
+                                <a href="https://kis.vgltu.ru/map/rasp?auditory=2Комп/АГор">2Комп/АГор</a><br>
                             </td>
                         </tr>
                         <tr>
-                                    <td style="width:75px" rowspan="1">10:10-11:40</td>
+                            <td style="width:75px">11:50-13:20</td>
                             <td style="width:auto">
-                                лек. Управление проектами<br>                                <br>
-ИС1-231-ОТ<br>
-ИС1-232-ОТ<br>
-ИС1-233-ОТ<br>
-ИС1-234-ОТ<br>
+                                пр. Устройство и функционирование информационной системы<br>2 п.г.<br>                                <br>
+ИС1-221-ОТ <br>
                                 <br>
-                                <a href="https://vgltu.ru/map/rasp?auditory=117Л/7к">117Л/7к</a><br>
-                                Луцко Д.П.<br>
-                            </td>
-                        </tr>
-                        <tr>
-                                    <td style="width:75px" rowspan="2">11:50-13:20</td>
-                            <td style="width:auto">
-                                лаб. Компьютерные сети<br>1 п.г.<br>                                <br>
-ИС1-233-ОТ<br>
-                                <br>
-                                <a href="https://vgltu.ru/map/rasp?auditory=2Комп/АГор">2Комп/АГор</a><br>
-                                Мальцев В.В.<br>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td style="width:auto">
-                                лаб. Численные методы<br>2 п.г.<br>                                <br>
-ИС1-233-ОТ<br>
-                                <br>
-                                <a href="https://vgltu.ru/map/rasp?auditory=3Комп/АГор">3Комп/АГор</a><br>
-                                Миронов Г.Д.<br>
-                            </td>
-                        </tr>
-                        <tr>
-                                    <td style="width:75px" rowspan="2">13:40-15:10</td>
-                            <td style="width:auto">
-                                Лаб. Основы алгоритмизации и программирования<br>1 п.г.<br>                                <br>
-ИС1-233-ОТ<br>
-                                <br>
-                                <a href="https://vgltu.ru/map/rasp?auditory=109Комп/7к">109Комп/7к</a><br>
-                                Лемза С.<br>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td style="width:auto">
-                                лаб. Моделирование и анализ программного обеспечения<br>2 п.г.<br>                                <br>
-ИС1-233-ОТ<br>
-                                <br>
-                                <a href="https://vgltu.ru/map/rasp?auditory=220Комп/7к">220Комп/7к</a><br>
-                                Лозовский М.И.<br>
+                                <a href="https://kis.vgltu.ru/map/rasp?auditory=201Комп/7к">201Комп/7к</a><br>
                             </td>
                         </tr>
             </tbody></table>
@@ -1329,42 +1392,21 @@
             <table>
 
                         <tbody><tr>
-                                    <td style="width:75px" rowspan="2">11:50-13:20</td>
+                            <td style="width:75px">08:30-10:00</td>
                             <td style="width:auto">
-                                лаб. Управление проектами<br>1 п.г.<br>                                <br>
-ИС1-233-ОТ<br>
+                                лаб. Устройство и функционирование информационной системы<br>2 п.г.<br>                                <br>
+ИС1-223-ОТ <br>
                                 <br>
-                                <a href="https://vgltu.ru/map/rasp?auditory=2Комп/АГор">2Комп/АГор</a><br>
-                                Луцко Д.П.<br>
+                                <a href="https://kis.vgltu.ru/map/rasp?auditory=108Комп/7к">108Комп/7к</a><br>
                             </td>
                         </tr>
                         <tr>
+                            <td style="width:75px">10:10-11:40</td>
                             <td style="width:auto">
-                                лаб. Проектирование и дизайн информационных систем<br>2 п.г.<br>                                <br>
-ИС1-233-ОТ<br>
+                                лаб. Устройство и функционирование информационной системы<br>2 п.г.<br>                                <br>
+ИС1-221-ОТ <br>
                                 <br>
-                                <a href="https://vgltu.ru/map/rasp?auditory=3Комп/АГор">3Комп/АГор</a><br>
-                                Авдеев К.А.<br>
-                            </td>
-                        </tr>
-                        <tr>
-                                    <td style="width:75px" rowspan="1">13:40-15:10</td>
-                            <td style="width:auto">
-                                пр. Иностранный язык в профессиональной деятельности<br>2 п.г.<br>                                <br>
-ИС1-233-ОТ<br>
-                                <br>
-                                <a href="https://vgltu.ru/map/rasp?auditory=5Пр/БЖД">5Пр/БЖД</a><br>
-                                Чеботарева А.А.<br>
-                            </td>
-                        </tr>
-                        <tr>
-                                    <td style="width:75px" rowspan="1">15:20-16:50</td>
-                            <td style="width:auto">
-                                пр. Основы алгоритмизации и программирования<br>2 п.г.<br>                                <br>
-ИС1-233-ОТ<br>
-                                <br>
-                                <a href="https://vgltu.ru/map/rasp?auditory=215Комп/Гл">215Комп/Гл</a><br>
-                                Лемза С.<br>
+                                <a href="https://kis.vgltu.ru/map/rasp?auditory=215Комп/Гл">215Комп/Гл</a><br>
                             </td>
                         </tr>
             </tbody></table>
@@ -1379,39 +1421,21 @@
             <table>
 
                         <tbody><tr>
-                                    <td style="width:75px" rowspan="1">08:30-10:00</td>
+                            <td style="width:75px">08:30-10:00</td>
                             <td style="width:auto">
-                                лек. Численные методы<br>                                <br>
-ИС1-231-ОТ<br>
-ИС1-232-ОТ<br>
-ИС1-233-ОТ<br>
-ИС1-234-ОТ<br>
+                                лаб. Устройство и функционирование информационной системы<br>2 п.г.<br>                                <br>
+ИС1-226-ОТ <br>
                                 <br>
-                                <a href="https://vgltu.ru/map/rasp?auditory=322Л/Гл">322Л/Гл</a><br>
-                                Миронов Г.Д.<br>
+                                <a href="https://kis.vgltu.ru/map/rasp?auditory=107Комп/7к">107Комп/7к</a><br>
                             </td>
                         </tr>
                         <tr>
-                                    <td style="width:75px" rowspan="1">10:10-11:40</td>
+                            <td style="width:75px">11:50-13:20</td>
                             <td style="width:auto">
-                                лек. Разработка кода информационных систем<br>                                <br>
-ИС1-231-ОТ<br>
-ИС1-232-ОТ<br>
-ИС1-233-ОТ<br>
-ИС1-234-ОТ<br>
+                                лаб. Устройство и функционирование информационной системы<br>2 п.г.<br>                                <br>
+ИС1-223-ОТ <br>
                                 <br>
-                                <a href="https://vgltu.ru/map/rasp?auditory=238Л/Гл">238Л/Гл</a><br>
-                                Шайдров Д.И.<br>
-                            </td>
-                        </tr>
-                        <tr>
-                                    <td style="width:75px" rowspan="1">11:50-13:20</td>
-                            <td style="width:auto">
-                                Пр. История<br>                                <br>
-ИС1-233-ОТ<br>
-                                <br>
-                                <a href="https://vgltu.ru/map/rasp?auditory=202Лаб/7к">202Лаб/7к</a><br>
-                                Пивоварова Ю.И.<br>
+                                <a href="https://kis.vgltu.ru/map/rasp?auditory=215Комп/Гл">215Комп/Гл</a><br>
                             </td>
                         </tr>
             </tbody></table>
@@ -1426,48 +1450,44 @@
             <table>
 
                         <tbody><tr>
-                                    <td style="width:75px" rowspan="1">08:30-10:00</td>
+                            <td style="width:75px">08:30-10:00</td>
                             <td style="width:auto">
-                                Лек. История<br>                                <br>
-ИС1-231-ОТ<br>
-ИС1-232-ОТ<br>
-ИС1-233-ОТ<br>
-ИС1-234-ОТ<br>
+                                лек. Устройство и функционирование информационной системы<br>                                <br>
+ИС1-225-ОТ <br>
+ИС1-226-ОТ <br>
+ИС1-227-ОТ <br>
                                 <br>
-                                <a href="https://vgltu.ru/map/rasp?auditory=08Л/Гл">08Л/Гл</a><br>
-                                Пивоварова Ю.И.<br>
+                                <a href="https://kis.vgltu.ru/map/rasp?auditory=119Л/7к">119Л/7к</a><br>
                             </td>
                         </tr>
                         <tr>
-                                    <td style="width:75px" rowspan="1">10:10-11:40</td>
+                            <td style="width:75px">10:10-11:40</td>
                             <td style="width:auto">
-                                лек. Моделирование и анализ программного обеспечения<br>                                <br>
-ИС1-231-ОТ<br>
-ИС1-232-ОТ<br>
-ИС1-233-ОТ<br>
-ИС1-234-ОТ<br>
+                                лек. Устройство и функционирование информационной системы<br>                                <br>
+ИС1-221-ОТ <br>
+ИС1-222-ОТ <br>
+ИС1-223-ОТ <br>
+ИС1-224-ОТ <br>
                                 <br>
-                                <a href="https://vgltu.ru/map/rasp?auditory=119Л/7к">119Л/7к</a><br>
-                                Лозовский М.И.<br>
+                                <a href="https://kis.vgltu.ru/map/rasp?auditory=314Л/Гл">314Л/Гл</a><br>
                             </td>
                         </tr>
                         <tr>
-                                    <td style="width:75px" rowspan="2">11:50-13:20</td>
+                            <td style="width:75px">11:50-13:20</td>
                             <td style="width:auto">
-                                лаб. Проектирование и дизайн информационных систем<br>1 п.г.<br>                                <br>
-ИС1-233-ОТ<br>
+                                лаб. Устройство и функционирование информационной системы<br>2 п.г.<br>                                <br>
+ИС1-225-ОТ <br>
                                 <br>
-                                <a href="https://vgltu.ru/map/rasp?auditory=1Комп/АГор">1Комп/АГор</a><br>
-                                Авдеев К.А.<br>
+                                <a href="https://kis.vgltu.ru/map/rasp?auditory=215Комп/Гл">215Комп/Гл</a><br>
                             </td>
                         </tr>
                         <tr>
+                            <td style="width:75px">13:40-15:10</td>
                             <td style="width:auto">
-                                лаб. Управление проектами<br>2 п.г.<br>                                <br>
-ИС1-233-ОТ<br>
+                                лаб. Устройство и функционирование информационной системы<br>2 п.г.<br>                                <br>
+ИС1-222-ОТ <br>
                                 <br>
-                                <a href="https://vgltu.ru/map/rasp?auditory=106Комп/7к">106Комп/7к</a><br>
-                                Луцко Д.П.<br>
+                                <a href="https://kis.vgltu.ru/map/rasp?auditory=11Лаб/Гл">11Лаб/Гл</a><br>
                             </td>
                         </tr>
             </tbody></table>
@@ -1626,115 +1646,6 @@
 </div>
 <div>
 <script>
-
-			let jsGroup = null;
-
-			async function LoadGroup() {
-				let sel = document.getElementById('searchGroup');
-				let resp = await fetch('https://kis.vgltu.ru/list?type=Group');
-				jsGroup = await resp.json();
-				let str = '';
-				let maxValue = 6;
-				if (window.innerHeight > window.innerWidth){
-					maxValue = 4;
-				}
-				let i = 0;
-				jsGroup.forEach(element => {
-					if (i++ < maxValue){
-						str += `<option value="${element}"></option>`;
-					}
-				});
-				document.getElementById("lsGroup").innerHTML = str;
-			}
-
-			async function AddTableGroup() {
-				document.querySelector("#raspTableGroup").innerHTML = "";
-				document.querySelector("#groupName").innerText = "";
-				let input = document.querySelector("#searchGroup").value;
-				let date = document.querySelector("#daysGroup").value;
-				let preloaderGroup = document.getElementById("preloaderGroup");
-				document.cookie = `schdGroup=${encodeURIComponent(input)}; max-age=604800; path=/;`;
-				preloaderGroup.style.display = "block";
-
-				let resp = await fetch(`https://kis.vgltu.ru/schedule?date=${date}&group=${input}`);
-				let text = await resp.text();
-
-				preloaderGroup.style.display = "none";
-				document.querySelector("#groupName").innerText = input;
-				document.querySelector("#raspTableGroup").innerHTML = text;
-				setMenuHeight();
-			}
-
-
-			async function UpdateListGroup(){
-				let inp = document.getElementById("searchGroup").value.toLowerCase();
-				let arr = jsGroup.filter(element => element.toLowerCase().startsWith(inp)).slice(0,5);
-				let str = '';
-				arr.forEach(element => {
-					str += `<option value="${element}"></option>`;
-				});
-				document.getElementById('lsGroup').innerHTML = str;
-			}
-			let degreeGroup = 0;
-			function RotateGroup()
-			{
-				let pr = document.getElementById("preloaderGroup");
-				degreeGroup = degreeGroup + 1;
-				pr.style.transform = 'rotate('+degreeGroup+'deg)'; 
-			}
-
-			function addDateInInput() {
-				let now = new Date();
-				let dd = String(now.getDate()).padStart(2, '0');
-				let mm = String(now.getMonth() + 1).padStart(2, '0');
-				let yyyy = now.getFullYear();
-				newNow = yyyy + '-' + mm + '-' + dd ;
-				let input = document.getElementById('daysGroup');
-				input.value = newNow;
-			}
-			function getCookieG(name) {
-				let matches = document.cookie.match(new RegExp(
-					"(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"
-				));
-				return matches ? decodeURIComponent(matches[1]) : undefined;
-			}
-			document.addEventListener("DOMContentLoaded", () => {
-				LoadGroup();
-				addDateInInput();
-
-				if (getCookieG('schdGroup') != null){
-					document.querySelector("#searchGroup").value = getCookieG('schdGroup');
-					AddTableGroup();
-				}
-
-				document.getElementById("raspButtonGroup").addEventListener("click", () => {
-					AddTableGroup();
-				});
-				document.getElementById("searchGroup").addEventListener("input", (event) => {document.getElementById("searchGroup").value = document.getElementById("searchGroup").value.toUpperCase() ;UpdateListGroup();});
-				document.body.addEventListener("keyup", (event) => {if (event.keyCode === 13){AddTableGroup();}});
-				setInterval(RotateGroup,10);
-				document.getElementById('tab-1').onclick = ()=>{setTimeout(()=>{document.getElementById('searchGroup').focus()}, 500)}
-				document.getElementById('tab-2').onclick = ()=>{setTimeout(()=>{document.getElementById('searchTeacher').focus()}, 500)}
-				document.getElementById('tab-3').onclick = ()=>{setTimeout(()=>{document.getElementById('searchAud').focus()}, 500)}
-			});
-		</script>
-</div>
-</div></div></div>
-<div class="tab-content" id="tab-2-content"><div class="content"><div id="raspMainTeacher">
-<div id="controlsTeacher" style="margin: 30px;">
-<h4>Начните вводить фамилию преподавателя и выберите Ф.И.О. из списка</h4>
-<div class="form-item-field" style="display: flex; justify-content: around; align-items: center; width: 100%;">
-<div style="display: flex; flex-direction: column; width: 100%;"><input id="searchTeacher" style="width: 90%; height: 50px;" list="lsTeacher" type="text" autofocus="">
-<datalist id="lsTeacher" style="background-color: red;"><option value="Абдуллаев Д.Р."></option><option value="Абрамов В.В."></option><option value="Абрасимовская А.Г."></option><option value="Авдеев К.А."></option><option value="Авдеева И.А."></option><option value="Авилов Ю.О."></option></datalist>
-<input id="daysTeacher" style="width: 90%; height: 50px; margin-top: 5px;" type="date"></div>
-<button id="raspButtonTeacher" class="button" style="width: 25%; height: 65px; margin-left: 15px;">Найти</button></div>
-</div>
-</div>
-<div style="text-align: center;"><img id="preloaderTeacher" style="display: none; margin: auto; opacity: 0.3; height: 256px; width: 256px;" src="https://vgltu.ru/templates/default/images/logo.svg"></div>
-<h2 id="teacherName" style="text-align: center;"></h2>
-<div id="raspTableTeacher" style="width: 100%;"></div>
-<div>
-<script>
 		let jsTeacher = null;
 
 		async function UpdateListTeacher(){
@@ -1825,7 +1736,7 @@
 <input id="daysAud" style="width: 90%; height: 50px; margin-top: 5px;" type="date" autofocus=""></div>
 <button id="raspButtonAud" class="button" style="width: 25%; height: 65px; margin-left: 15px;">Найти</button></div>
 </div>
-<div style="text-align: center;"><img id="preloaderAud" style="display: none; margin: auto; opacity: 0.3; height: 256px; width: 256px; transform: rotate(643deg);" src="https://vgltu.ru/templates/default/images/logo.svg"></div>
+<div style="text-align: center;"><img id="preloaderAud" style="display: none; margin: auto; opacity: 0.3; height: 256px; width: 256px; transform: rotate(857deg);" src="https://vgltu.ru/templates/default/images/logo.svg"></div>
 <h2 id="auditoryName" style="text-align: center;"></h2>
 <div id="raspTableAud" style="width: 100%;"></div>
 <div>

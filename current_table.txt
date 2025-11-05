@@ -8,67 +8,21 @@
             <table>
 
                         <tbody><tr>
-                                    <td style="width:75px" rowspan="1">08:30-10:00</td>
+                            <td style="width:75px">08:30-10:00</td>
                             <td style="width:auto">
-                                лек. Компьютерные сети<br>                                <br>
-ИС1-231-ОТ<br>
-ИС1-232-ОТ<br>
-ИС1-233-ОТ<br>
-ИС1-234-ОТ<br>
+                                лаб. Устройство и функционирование информационной системы<br>2 п.г.<br>                                <br>
+ИС1-226-ОТ <br>
                                 <br>
-                                <a href="https://vgltu.ru/map/rasp?auditory=238Л/Гл">238Л/Гл</a><br>
-                                Мальцев В.В.<br>
+                                <a href="https://kis.vgltu.ru/map/rasp?auditory=2Комп/АГор">2Комп/АГор</a><br>
                             </td>
                         </tr>
                         <tr>
-                                    <td style="width:75px" rowspan="1">10:10-11:40</td>
+                            <td style="width:75px">11:50-13:20</td>
                             <td style="width:auto">
-                                лек. Управление проектами<br>                                <br>
-ИС1-231-ОТ<br>
-ИС1-232-ОТ<br>
-ИС1-233-ОТ<br>
-ИС1-234-ОТ<br>
+                                пр. Устройство и функционирование информационной системы<br>2 п.г.<br>                                <br>
+ИС1-221-ОТ <br>
                                 <br>
-                                <a href="https://vgltu.ru/map/rasp?auditory=117Л/7к">117Л/7к</a><br>
-                                Луцко Д.П.<br>
-                            </td>
-                        </tr>
-                        <tr>
-                                    <td style="width:75px" rowspan="2">11:50-13:20</td>
-                            <td style="width:auto">
-                                лаб. Компьютерные сети<br>1 п.г.<br>                                <br>
-ИС1-233-ОТ<br>
-                                <br>
-                                <a href="https://vgltu.ru/map/rasp?auditory=2Комп/АГор">2Комп/АГор</a><br>
-                                Мальцев В.В.<br>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td style="width:auto">
-                                лаб. Численные методы<br>2 п.г.<br>                                <br>
-ИС1-233-ОТ<br>
-                                <br>
-                                <a href="https://vgltu.ru/map/rasp?auditory=3Комп/АГор">3Комп/АГор</a><br>
-                                Миронов Г.Д.<br>
-                            </td>
-                        </tr>
-                        <tr>
-                                    <td style="width:75px" rowspan="2">13:40-15:10</td>
-                            <td style="width:auto">
-                                Лаб. Основы алгоритмизации и программирования<br>1 п.г.<br>                                <br>
-ИС1-233-ОТ<br>
-                                <br>
-                                <a href="https://vgltu.ru/map/rasp?auditory=109Комп/7к">109Комп/7к</a><br>
-                                Лемза С.<br>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td style="width:auto">
-                                лаб. Моделирование и анализ программного обеспечения<br>2 п.г.<br>                                <br>
-ИС1-233-ОТ<br>
-                                <br>
-                                <a href="https://vgltu.ru/map/rasp?auditory=220Комп/7к">220Комп/7к</a><br>
-                                Лозовский М.И.<br>
+                                <a href="https://kis.vgltu.ru/map/rasp?auditory=201Комп/7к">201Комп/7к</a><br>
                             </td>
                         </tr>
             </tbody></table>

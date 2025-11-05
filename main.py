@@ -565,6 +565,7 @@ class RaspisanieStudent(QWidget):
         self.l_2pg.setFont(font)
         self.l_2pg.setAlignment(Qt.AlignmentFlag.AlignCenter)
         self.l_2pg.setGeometry(601, 40, 599, 20)
+        self.center()
 
         fin = open("raspisanie.txt", "r", encoding='utf-8')
         line_count = 1
@@ -733,6 +734,7 @@ class RaspisanieTeacher(QWidget):
         self.setGeometry(630, 340, 1000, 500)
         self.setFixedSize(1000, 500)
         self.setStyleSheet("background-color: rgb(255, 255, 255);")
+        self.center()
         # Получение переменных с данными расписания и их вывод в окно
         font = QFont("Arial", 14)
         fin = open("raspisanie.txt", "r", encoding='utf-8')
@@ -803,6 +805,16 @@ class RaspisanieTeacher(QWidget):
                 else:
                     more_than_one_group = 0
             line_count += 1
+
+    def center(self):
+        # Получаем геометрию окна
+        qr = self.frameGeometry()
+        # Находим центр экрана
+        cp = QDesktopWidget().availableGeometry().center()
+        # Перемещаем центр окна в центр экрана
+        qr.moveCenter(cp)
+        # Перемещаем окно в соответствии с новой позицией
+        self.move(qr.topLeft())
 
 # готово, всё верно
 class RoundWidget(QWidget):
