@@ -383,6 +383,13 @@ class TimeToStartStudent(QtCore.QThread):
                 current_time = datetime.now()
                 current_min = current_time.minute
                 current_hour = current_time.hour
+                global current_day
+                global current_month
+                today_day = datetime.now().day
+                today_month = datetime.now().month
+                if not current_day == today_day or not today_month == current_month:
+                    time.sleep(60)
+                    break
                 if int(start_time[0]) == 0:
                     minutes_left = (int(start_time[1]) * 60 + int(start_time[3:5])) - (current_hour * 60 + current_min)
                 else:
@@ -422,6 +429,13 @@ class TimeToStartTeacher(QtCore.QThread):
                 current_time = datetime.now()
                 current_min = current_time.minute
                 current_hour = current_time.hour
+                global current_day
+                global current_month
+                today_day = datetime.now().day
+                today_month = datetime.now().month
+                if not current_day == today_day or not today_month == current_month:
+                    time.sleep(60)
+                    break
                 if int(start_time[0]) == 0:
                     minutes_left = (int(start_time[1]) * 60 + int(start_time[3:5])) - (current_hour * 60 + current_min)
                 else:
@@ -752,6 +766,7 @@ class RaspisanieTeacher(QWidget):
         current_place = 0
         current_place_predm = -20
         current_place_group = 20
+        current_place_aud = 0
         group_to_print = ""
         group_print = 0
         more_than_one_group = 0
@@ -775,7 +790,7 @@ class RaspisanieTeacher(QWidget):
                 self.l_day_w.setGeometry(0, 20, 1000, 20)
             # время
             if ":" in line:
-                current_place = current_place_group + 40
+                current_place = current_place_aud + 40
                 self.l_time = QLabel(line, parent=self)
                 self.l_time.setFont(font)
                 self.l_time.setAlignment(Qt.AlignmentFlag.AlignCenter)
@@ -814,6 +829,13 @@ class RaspisanieTeacher(QWidget):
                 else:
                     more_than_one_group = 0
             line_count += 1
+            # Аудитория
+            if "Дис" in line or "/" in line:
+                self.aud = QLabel(line, parent=self)
+                self.aud.setFont(font)
+                self.aud.setAlignment(Qt.AlignmentFlag.AlignCenter)
+                current_place_aud = current_place_group + 20
+                self.aud.setGeometry(0, current_place_aud, 1000, 20)
 
     def center(self):
         # Получаем геометрию окна
@@ -905,18 +927,18 @@ class RoundWidget(QWidget):
             self.setStyleSheet("background-color: rgb(255, 0, 0);")
 
 if __name__ == "__main__":
-    #app = QApplication(sys.argv)
-    # Создание окна
-    #widget = GetGroupCodeOrTeacherName()
-    # Показать окно
-    #widget.show()
-    #sys.exit(app.exec_())
-
     app = QApplication(sys.argv)
     # Создание окна
-    widget = RaspisanieTeacher()
+    widget = GetGroupCodeOrTeacherName()
     # Показать окно
     widget.show()
     sys.exit(app.exec_())
+
+    #app = QApplication(sys.argv)
+    # Создание окна
+    #widget = RaspisanieTeacher()
+    # Показать окно
+    #widget.show()
+    #sys.exit(app.exec_())
 
 # -----------------------------------------------------------------------------------------
