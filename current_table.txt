@@ -1,48 +1,74 @@
         <div style="margin-bottom: 25px;">
             <div>
-                <strong>04 ноября 2025</strong>
+                <strong>05 ноября 2025</strong>
             </div>
             <div>
-                вторник
+                среда
             </div>
             <table>
 
                         <tbody><tr>
-                                    <td style="width:75px" rowspan="2">18:40-20:10</td>
+                                    <td style="width:75px" rowspan="1">08:30-10:00</td>
                             <td style="width:auto">
-                                Лаб. Экономико-математические модели управления проектами<br>1 п.г.<br>                                <br>
-ИС4-242-ОМ<br>
+                                лек. Компьютерные сети<br>                                <br>
+ИС1-231-ОТ<br>
+ИС1-232-ОТ<br>
+ИС1-233-ОТ<br>
+ИС1-234-ОТ<br>
                                 <br>
-                                <a href="https://vgltu.ru/map/rasp?auditory=33аДис">33аДис</a><br>
-                                Ягодкин А.С.<br>
+                                <a href="https://vgltu.ru/map/rasp?auditory=238Л/Гл">238Л/Гл</a><br>
+                                Мальцев В.В.<br>
+                            </td>
+                        </tr>
+                        <tr>
+                                    <td style="width:75px" rowspan="1">10:10-11:40</td>
+                            <td style="width:auto">
+                                лек. Управление проектами<br>                                <br>
+ИС1-231-ОТ<br>
+ИС1-232-ОТ<br>
+ИС1-233-ОТ<br>
+ИС1-234-ОТ<br>
+                                <br>
+                                <a href="https://vgltu.ru/map/rasp?auditory=117Л/7к">117Л/7к</a><br>
+                                Луцко Д.П.<br>
+                            </td>
+                        </tr>
+                        <tr>
+                                    <td style="width:75px" rowspan="2">11:50-13:20</td>
+                            <td style="width:auto">
+                                лаб. Компьютерные сети<br>1 п.г.<br>                                <br>
+ИС1-233-ОТ<br>
+                                <br>
+                                <a href="https://vgltu.ru/map/rasp?auditory=2Комп/АГор">2Комп/АГор</a><br>
+                                Мальцев В.В.<br>
                             </td>
                         </tr>
                         <tr>
                             <td style="width:auto">
-                                лаб. Методы и модели проектирования современных ИС<br>2 п.г.<br>                                <br>
-ИС4-242-ОМ<br>
+                                лаб. Численные методы<br>2 п.г.<br>                                <br>
+ИС1-233-ОТ<br>
                                 <br>
-                                <a href="https://vgltu.ru/map/rasp?auditory=34аДис">34аДис</a><br>
-                                Сумин В.И.<br>
+                                <a href="https://vgltu.ru/map/rasp?auditory=3Комп/АГор">3Комп/АГор</a><br>
+                                Миронов Г.Д.<br>
                             </td>
                         </tr>
                         <tr>
-                                    <td style="width:75px" rowspan="2">20:20-21:50</td>
+                                    <td style="width:75px" rowspan="2">13:40-15:10</td>
                             <td style="width:auto">
-                                лаб. Методы и модели проектирования современных ИС<br>1 п.г.<br>                                <br>
-ИС4-242-ОМ<br>
+                                Лаб. Основы алгоритмизации и программирования<br>1 п.г.<br>                                <br>
+ИС1-233-ОТ<br>
                                 <br>
-                                <a href="https://vgltu.ru/map/rasp?auditory=34аДис">34аДис</a><br>
-                                Сумин В.И.<br>
+                                <a href="https://vgltu.ru/map/rasp?auditory=109Комп/7к">109Комп/7к</a><br>
+                                Лемза С.<br>
                             </td>
                         </tr>
                         <tr>
                             <td style="width:auto">
-                                лаб. Экономико-математические модели управления проектами<br>2 п.г.<br>                                <br>
-ИС4-242-ОМ<br>
+                                лаб. Моделирование и анализ программного обеспечения<br>2 п.г.<br>                                <br>
+ИС1-233-ОТ<br>
                                 <br>
-                                <a href="https://vgltu.ru/map/rasp?auditory=33аДис">33аДис</a><br>
-                                Ягодкин А.С.<br>
+                                <a href="https://vgltu.ru/map/rasp?auditory=220Комп/7к">220Комп/7к</a><br>
+                                Лозовский М.И.<br>
                             </td>
                         </tr>
             </tbody></table>
