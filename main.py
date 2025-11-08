@@ -154,7 +154,7 @@ def get_current_student_table():
             fout.write(line[line.find("<") + 4:line.find("<") + 10] + "\n" + line[32:line.find("<")])
             second_predm = 1
             go_cycle = 0
-        elif ("лек." in  line or "Лек." in  line or "Физ" in  line or "Пр." in  line or "пр." in  line) and not("1 п.г." in line) and not("2 п.г." in line):
+        elif ("лаб." in  line or "Лаб." in  line or "лек." in  line or "Лек." in  line or "Физ" in  line or "Пр." in  line or "пр." in  line) and not("1 п.г." in line) and not("2 п.г." in line):
             lec_line = line_count
             lec_line_counting = 1
             fout.write("\n" + line[32:line.find("<")])
@@ -642,7 +642,7 @@ class RaspisanieStudent(QWidget):
                 self.l_predm.setGeometry(601, current_place_predm, 599, 20)
                 second_predm = 1
                 go_cycle = 0
-            elif "лек." in line or "Лек." in line or "Физ" in  line or "Пр." in  line or "пр." in  line:
+            elif line_count == (good_sign+1) and ("лаб." in line or "Лаб." in line or "лек." in line or "Лек." in line or "Физ" in  line or "Пр." in  line or "пр." in  line):
                 self.l_predm = QLabel(line, parent=self)
                 self.l_predm.setFont(font)
                 self.l_predm.setAlignment(Qt.AlignmentFlag.AlignCenter)
