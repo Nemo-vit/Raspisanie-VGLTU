@@ -1,55 +1,48 @@
         <div style="margin-bottom: 25px;">
             <div>
-                <strong>08 ноября 2025</strong>
+                <strong>18 ноября 2025</strong>
             </div>
             <div>
-                суббота
+                вторник
             </div>
             <table>
 
                         <tbody><tr>
-                                    <td style="width:75px" rowspan="1">08:30-10:00</td>
+                                    <td style="width:75px" rowspan="2">18:40-20:10</td>
                             <td style="width:auto">
-                                Лек. История<br>                                <br>
-ИС1-231-ОТ<br>
-ИС1-232-ОТ<br>
-ИС1-233-ОТ<br>
-ИС1-234-ОТ<br>
+                                Лаб. Экономико-математические модели управления проектами<br>1 п.г.<br>                                <br>
+ИС4-242-ОМ<br>
                                 <br>
-                                <a href="https://vgltu.ru/map/rasp?auditory=08Л/Гл">08Л/Гл</a><br>
-                                Пивоварова Ю.И.<br>
-                            </td>
-                        </tr>
-                        <tr>
-                                    <td style="width:75px" rowspan="1">10:10-11:40</td>
-                            <td style="width:auto">
-                                лек. Моделирование и анализ программного обеспечения<br>                                <br>
-ИС1-231-ОТ<br>
-ИС1-232-ОТ<br>
-ИС1-233-ОТ<br>
-ИС1-234-ОТ<br>
-                                <br>
-                                <a href="https://vgltu.ru/map/rasp?auditory=119Л/7к">119Л/7к</a><br>
-                                Лозовский М.И.<br>
-                            </td>
-                        </tr>
-                        <tr>
-                                    <td style="width:75px" rowspan="2">11:50-13:20</td>
-                            <td style="width:auto">
-                                лаб. Проектирование и дизайн информационных систем<br>1 п.г.<br>                                <br>
-ИС1-233-ОТ<br>
-                                <br>
-                                <a href="https://vgltu.ru/map/rasp?auditory=1Комп/АГор">1Комп/АГор</a><br>
-                                Авдеев К.А.<br>
+                                <a href="https://vgltu.ru/map/rasp?auditory=33аДис">33аДис</a><br>
+                                Ягодкин А.С.<br>
                             </td>
                         </tr>
                         <tr>
                             <td style="width:auto">
-                                лаб. Управление проектами<br>2 п.г.<br>                                <br>
-ИС1-233-ОТ<br>
+                                лаб. Методы и модели проектирования современных ИС<br>2 п.г.<br>                                <br>
+ИС4-242-ОМ<br>
                                 <br>
-                                <a href="https://vgltu.ru/map/rasp?auditory=106Комп/7к">106Комп/7к</a><br>
-                                Луцко Д.П.<br>
+                                <a href="https://vgltu.ru/map/rasp?auditory=34аДис">34аДис</a><br>
+                                Сумин В.И.<br>
+                            </td>
+                        </tr>
+                        <tr>
+                                    <td style="width:75px" rowspan="2">20:20-21:50</td>
+                            <td style="width:auto">
+                                лаб. Методы и модели проектирования современных ИС<br>1 п.г.<br>                                <br>
+ИС4-242-ОМ<br>
+                                <br>
+                                <a href="https://vgltu.ru/map/rasp?auditory=34аДис">34аДис</a><br>
+                                Сумин В.И.<br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width:auto">
+                                лаб. Экономико-математические модели управления проектами<br>2 п.г.<br>                                <br>
+ИС4-242-ОМ<br>
+                                <br>
+                                <a href="https://vgltu.ru/map/rasp?auditory=33аДис">33аДис</a><br>
+                                Ягодкин А.С.<br>
                             </td>
                         </tr>
             </tbody></table>

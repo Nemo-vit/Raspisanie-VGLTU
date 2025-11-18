@@ -350,9 +350,9 @@ class TimeToStartStudent(QtCore.QThread):
             for line in fin:
                 if "пар нет" in line:
                     no_pairs = 1
-                if (line_number == er+3) and ("2 п.г." in line):
+                if (line_number == er+4) and ("2 п.г." in line):
                     break
-                elif line_number == er+3:
+                elif line_number == er+4:
                     er = 0
                 if "1 п.г." in line:
                     er = line_number
@@ -361,21 +361,21 @@ class TimeToStartStudent(QtCore.QThread):
                 else:
                     line_number +=1
             fin.close()
-            #print(line_number)
+            print(line_number)
             fin = open("raspisanie.txt", "r", encoding='utf-8')
             needed_line_number = 1
             start_time = ""
             for line in fin:
                 if no_pairs:
                     break
-                if (needed_line_number == line_number-4 and ":" in line) or (needed_line_number == line_number-1 and ":" in line) or (needed_line_number == line_number-2 and ":" in line):
+                if (needed_line_number == line_number-5 and ":" in line) or (needed_line_number == line_number-1 and ":" in line) or (needed_line_number == line_number-2 and ":" in line):
                     start_time = line[:5]
                     break
                 else:
                     needed_line_number += 1
             fin.close()
-            #print(needed_line_number)
-            #print(start_time)
+            print(needed_line_number)
+            print(start_time)
             for i in range(0,59):
                 if no_pairs:
                     time.sleep(60)
