@@ -350,9 +350,9 @@ class TimeToStartStudent(QtCore.QThread):
             for line in fin:
                 if "пар нет" in line:
                     no_pairs = 1
-                if (line_number == er+4) and ("2 п.г." in line):
+                if (line_number == er+5) and ("2 п.г." in line):
                     break
-                elif line_number == er+4:
+                elif line_number == er+5:
                     er = 0
                 if "1 п.г." in line:
                     er = line_number
