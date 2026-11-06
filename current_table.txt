@@ -1,35 +1,38 @@
         <div style="margin-bottom: 25px;">
             <div>
-                <strong>18 ноября 2025</strong>
+                <strong>27 декабря 2025</strong>
             </div>
             <div>
-                вторник
+                суббота
             </div>
             <table>
 
                         <tbody><tr>
+                                    <td style="width:75px" rowspan="1">15:20-16:50</td>
+                            <td style="width:auto">
+                                лек. Методы оценки научных исследований<br>                                <br>
+ИС4-241-ОМ<br>
+ИС4-242-ОМ<br>
+                                <br>
+                                <a href="https://vgltu.ru/map/rasp?auditory=34аДис">34аДис</a><br>
+                                Сумин В.И.<br>
+                            </td>
+                        </tr>
+                        <tr>
+                                    <td style="width:75px" rowspan="1">17:00-18:30</td>
+                            <td style="width:auto">
+                                лек. Методы и модели проектирования современных ИС<br>                                <br>
+ИС4-241-ОМ<br>
+ИС4-242-ОМ<br>
+                                <br>
+                                <a href="https://vgltu.ru/map/rasp?auditory=34аДис">34аДис</a><br>
+                                Сумин В.И.<br>
+                            </td>
+                        </tr>
+                        <tr>
                                     <td style="width:75px" rowspan="2">18:40-20:10</td>
                             <td style="width:auto">
-                                Лаб. Экономико-математические модели управления проектами<br>1 п.г.<br>                                <br>
-ИС4-242-ОМ<br>
-                                <br>
-                                <a href="https://vgltu.ru/map/rasp?auditory=33аДис">33аДис</a><br>
-                                Ягодкин А.С.<br>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td style="width:auto">
-                                лаб. Методы и модели проектирования современных ИС<br>2 п.г.<br>                                <br>
-ИС4-242-ОМ<br>
-                                <br>
-                                <a href="https://vgltu.ru/map/rasp?auditory=34аДис">34аДис</a><br>
-                                Сумин В.И.<br>
-                            </td>
-                        </tr>
-                        <tr>
-                                    <td style="width:75px" rowspan="2">20:20-21:50</td>
-                            <td style="width:auto">
-                                лаб. Методы и модели проектирования современных ИС<br>1 п.г.<br>                                <br>
+                                лаб. Методы оценки научных исследований<br>1 п.г.<br>                                <br>
 ИС4-242-ОМ<br>
                                 <br>
                                 <a href="https://vgltu.ru/map/rasp?auditory=34аДис">34аДис</a><br>
@@ -38,11 +41,11 @@
                         </tr>
                         <tr>
                             <td style="width:auto">
-                                лаб. Экономико-математические модели управления проектами<br>2 п.г.<br>                                <br>
+                                лаб. Методы проектир. и создания совр.САПР<br>2 п.г.<br>                                <br>
 ИС4-242-ОМ<br>
                                 <br>
-                                <a href="https://vgltu.ru/map/rasp?auditory=33аДис">33аДис</a><br>
-                                Ягодкин А.С.<br>
+                                <a href="https://vgltu.ru/map/rasp?auditory=32аДис">32аДис</a><br>
+                                Ачкасов А.В.<br>
                             </td>
                         </tr>
             </tbody></table>
